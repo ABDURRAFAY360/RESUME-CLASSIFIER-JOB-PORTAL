@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="DatabaseEntities">
+    <EntitySetMapping Name="Employer_table">
+      <EntityTypeMapping TypeName="DatabaseModel.Employer_table">
+        <MappingFragment StoreEntitySet="Employer_table">
+          <ScalarProperty Name="employer_id" ColumnName="employer_id" />
+          <ScalarProperty Name="First_name" ColumnName="First_name" />
+          <ScalarProperty Name="Last_name" ColumnName="Last_name" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Company_name" ColumnName="Company_name" />
+          <ScalarProperty Name="Company_contact_number" ColumnName="Company_contact_number" />
+          <ScalarProperty Name="Phone_number" ColumnName="Phone_number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Job_postTable">
+      <EntityTypeMapping TypeName="DatabaseModel.Job_postTable">
+        <MappingFragment StoreEntitySet="Job_postTable">
+          <ScalarProperty Name="Job_id" ColumnName="Job_id" />
+          <ScalarProperty Name="Job_description" ColumnName="Job_description" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="Employer_id" ColumnName="Employer_id" />
+          <ScalarProperty Name="Applicants_id" ColumnName="Applicants_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Resume_table">
+      <EntityTypeMapping TypeName="DatabaseModel.Resume_table">
+        <MappingFragment StoreEntitySet="Resume_table">
+          <ScalarProperty Name="Resume_id" ColumnName="Resume_id" />
+          <ScalarProperty Name="Raw_text" ColumnName="Raw_text" />
+          <ScalarProperty Name="Formated_text" ColumnName="Formated_text" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="Predicted_labels" ColumnName="Predicted_labels" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_table">
+      <EntityTypeMapping TypeName="DatabaseModel.User_table">
+        <MappingFragment StoreEntitySet="User_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="First_name" ColumnName="First_name" />
+          <ScalarProperty Name="Last_name" ColumnName="Last_name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Current_education" ColumnName="Current_education" />
+          <ScalarProperty Name="Phone_number" ColumnName="Phone_number" />
+          <ScalarProperty Name="Employement_status" ColumnName="Employement_status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

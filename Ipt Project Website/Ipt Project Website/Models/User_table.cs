@@ -11,18 +11,43 @@ namespace Ipt_Project_Website.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class User_table
     {
         public string id { get; set; }
+        [Required(ErrorMessage = "This Field is Required.")]
         public string First_name { get; set; }
+        [Required(ErrorMessage = "This Field is Required.")]
         public string Last_name { get; set; }
+        [Required(ErrorMessage = "This Field is Required.")]
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+        [Required(ErrorMessage = "This Field is Required.")]
+        [DataType(DataType.Password)]
         public string Password { get; set; }
+        [Required(ErrorMessage = "This Field is Required.")]
+        [DataType(DataType.Password)]
+        [DisplayName("Confirm Passowrd")]
+        [Compare("Password")]
+        public string ConfirmPassword { get; set; }
+
+        [Required(ErrorMessage = "This Field is Required.")]
         public string City { get; set; }
+        [Required(ErrorMessage = "This Field is Required.")]
         public string Country { get; set; }
+        [Required(ErrorMessage = "This Field is Required.")]
+        [DisplayName("Current Education")]
         public string Current_education { get; set; }
-        public decimal Phone_number { get; set; }
+
+        [Required(ErrorMessage = "This Field is Required.")]
+        [RegularExpression(@"^\(?([0-9]{4})\)?[-. ]?([0-9]{7})$", ErrorMessage = "Not a valid phone number")]
+        [DisplayName("Contact Number")]
+        public string Phone_number { get; set; }
+        
+        [Required(ErrorMessage = "This Field is Required.")]
+        [DisplayName("Employement Status")]
         public string Employement_status { get; set; }
     }
 }
