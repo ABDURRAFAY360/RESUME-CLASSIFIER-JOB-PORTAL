@@ -6,25 +6,66 @@
 //     Manual changes to this file will be overwritten if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-
+using System.ComponentModel.DataAnnotations.Schema;
 namespace Ipt_Project_Website.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel;
     public partial class Employer
     {
         public int id { get; set; }
+        [DisplayName("First Name")]
+        [Required(ErrorMessage = "This Field is Required.")]
+        [StringLength(50)]
         public string First_name { get; set; }
+        [Required(ErrorMessage = "This Field is Required.")]
+        [DisplayName("Last Name")]
+        [StringLength(50)]
         public string Last_name { get; set; }
+
+        [Required(ErrorMessage = "This Field is Required.")]
+        [StringLength(50)]
         public string Email { get; set; }
+
+
+        [Required(ErrorMessage = "This Field is Required.")]
+        [DataType(DataType.Password)]
+        [StringLength(50)]
         public string Password { get; set; }
+
+        [Required(ErrorMessage = "This Field is Required.")]
+        [DisplayName("Current Education")]
         public string Current_education { get; set; }
+
+
+        [Required(ErrorMessage = "This Field is Required.")]
+        [DisplayName("Employement Status")]
         public string Employment_status { get; set; }
+
+
+
+        [Required(ErrorMessage = "This Field is Required.")]
+        [RegularExpression(@"^\(?([0-9]{4})\)?[-. ]?([0-9]{7})$", ErrorMessage = "Not a valid phone number")]
+        [DisplayName("Phone Number")]
         public string Phone_number { get; set; }
+
+
+        [Required(ErrorMessage = "This Field is Required.")]
+        [StringLength(50)]
         public string City { get; set; }
+
+        [Required(ErrorMessage = "This Field is Required.")]
+        [StringLength(50)]
         public string Country { get; set; }
+        [DisplayName("Company Name")]
+        [StringLength(50)]
+        [Required(ErrorMessage = "This Field is Required.")]
         public string Company_name { get; set; }
+        [DisplayName("Company Contact Number")]
+        [Required(ErrorMessage = "This Field is Required.")]
+        [RegularExpression(@"^\(?([0-9]{4})\)?[-. ]?([0-9]{7})$", ErrorMessage = "Not a valid phone number")
         public string Company_contact_number { get; set; }
     }
 }

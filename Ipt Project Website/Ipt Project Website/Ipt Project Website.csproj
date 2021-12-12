@@ -128,6 +128,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\EmployerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
@@ -223,6 +224,11 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\User\UserSignUp.cshtml" />
+    <Content Include="Views\User\UserLogin.cshtml" />
+    <Content Include="Views\User\View.cshtml" />
+    <Content Include="Views\Employer\EmployerSignUp.cshtml" />
+    <Content Include="Views\Employer\View.cshtml" />
+    <Content Include="Views\Employer\EmployerLogin.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
