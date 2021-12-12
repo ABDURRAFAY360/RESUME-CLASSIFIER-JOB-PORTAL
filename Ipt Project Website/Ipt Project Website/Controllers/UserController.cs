@@ -13,20 +13,20 @@ namespace Ipt_Project_Website.Controllers
         [HttpGet]
         public ActionResult UserSignUp()
         {
-            User_table user = new User_table();
+            User user = new User();
             return View(user);
         }
         [HttpPost]
-        public ActionResult UserSignUp(User_table user)
+        public ActionResult UserSignUp(User user)
         {
             using(DbModel dbmodel = new DbModel())
             {
-                dbmodel.User_table.Add(user);
+                dbmodel.Users.Add(user);
                 dbmodel.SaveChanges();
             }
             ModelState.Clear();
             ViewBag.SuccessMessage = "Registration Successful";
-            return View("UserSignUp", new User_table());
+            return View("UserSignUp", new User());
         }
     }
 }

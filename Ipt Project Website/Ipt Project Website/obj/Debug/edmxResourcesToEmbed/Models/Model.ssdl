@@ -1,59 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityType Name="Employer_table">
-    <Key>
-      <PropertyRef Name="employer_id" />
-    </Key>
-    <Property Name="employer_id" Type="nchar" MaxLength="10" Nullable="false" />
-    <Property Name="First_name" Type="text" Nullable="false" />
-    <Property Name="Last_name" Type="text" Nullable="false" />
-    <Property Name="City" Type="text" Nullable="false" />
-    <Property Name="Country" Type="text" Nullable="false" />
-    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
-    <Property Name="Company_name" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="Company_contact_number" Type="nvarchar" MaxLength="50" Nullable="false" />
-    <Property Name="Phone_number" Type="nvarchar" MaxLength="50" Nullable="false" />
-  </EntityType>
-  <EntityType Name="Job_postTable">
-    <Key>
-      <PropertyRef Name="Job_id" />
-    </Key>
-    <Property Name="Job_id" Type="nchar" MaxLength="10" Nullable="false" />
-    <Property Name="Job_description" Type="nchar" MaxLength="10" Nullable="false" />
-    <Property Name="Designation" Type="nchar" MaxLength="10" Nullable="false" />
-    <Property Name="Employer_id" Type="nchar" MaxLength="10" Nullable="false" />
-    <Property Name="Applicants_id" Type="nchar" MaxLength="10" Nullable="false" />
-  </EntityType>
-  <EntityType Name="Resume_table">
-    <Key>
-      <PropertyRef Name="Resume_id" />
-    </Key>
-    <Property Name="Resume_id" Type="nchar" MaxLength="10" Nullable="false" />
-    <Property Name="Raw_text" Type="text" Nullable="false" />
-    <Property Name="Formated_text" Type="text" Nullable="false" />
-    <Property Name="user_id" Type="nchar" MaxLength="10" Nullable="false" />
-    <Property Name="Predicted_labels" Type="nchar" MaxLength="10" Nullable="false" />
-  </EntityType>
-  <EntityType Name="User_table">
+  <EntityType Name="Employer">
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="First_name" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Last_name" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Current_education" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Employment_status" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone_number" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="City" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Country" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Company_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Company_contact_number" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Job_applicant">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="job_id" Type="int" Nullable="false" />
+    <Property Name="applicant_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Job_post">
+    <Key>
+      <PropertyRef Name="Job_id" />
+    </Key>
+    <Property Name="Job_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Job_description" Type="text" Nullable="false" />
+    <Property Name="Job_designation" Type="text" Nullable="false" />
+    <Property Name="Employer_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Resume">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Raw_text" Type="text" Nullable="false" />
+    <Property Name="Formated_text" Type="text" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="Predicted_labels" Type="text" Nullable="false" />
+    <Property Name="filepath" Type="text" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="First_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Last_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Current_education" Type="nvarchar" MaxLength="50" Nullable="false" />
-    <Property Name="Phone_number" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-    <Property Name="Employement_status" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Employment_status" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone_number" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" Nullable="false" />
   </EntityType>
   <EntityContainer Name="DatabaseModelStoreContainer">
-    <EntitySet Name="Employer_table" EntityType="Self.Employer_table" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Job_postTable" EntityType="Self.Job_postTable" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Resume_table" EntityType="Self.Resume_table" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="User_table" EntityType="Self.User_table" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employer" EntityType="Self.Employer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Job_applicant" EntityType="Self.Job_applicant" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Job_post" EntityType="Self.Job_post" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Resume" EntityType="Self.Resume" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>
