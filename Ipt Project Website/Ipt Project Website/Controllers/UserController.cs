@@ -19,7 +19,7 @@ namespace Ipt_Project_Website.Controllers
         [HttpPost]
         public ActionResult UserSignUp(User_table user)
         {
-            using(DatabaseEntities dbmodel = new DatabaseEntities())
+            using(DbModel dbmodel = new DbModel())
             {
                 dbmodel.User_table.Add(user);
                 dbmodel.SaveChanges();

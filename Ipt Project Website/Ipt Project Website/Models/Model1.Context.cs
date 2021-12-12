@@ -13,10 +13,10 @@ namespace Ipt_Project_Website.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DatabaseEntities : DbContext
+    public partial class DbModel : DbContext
     {
-        public DatabaseEntities()
-            : base("name=DatabaseEntities")
+        public DbModel()
+            : base("name=DbModel")
         {
         }
     
