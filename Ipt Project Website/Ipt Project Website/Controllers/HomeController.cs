@@ -10,6 +10,7 @@ namespace Ipt_Project_Website.Controllers
     {
         public ActionResult Index()
         {
+            Session["username"] = null;
             return View();
         }
 

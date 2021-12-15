@@ -17,5 +17,9 @@ namespace Ipt_Project_Website
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+        protected void Session_Start(object sender, EventArgs e)
+        {
+            Session["User"] = 0;
+        }
     }
 }
