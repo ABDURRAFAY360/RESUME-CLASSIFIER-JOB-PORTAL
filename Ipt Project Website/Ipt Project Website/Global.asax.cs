@@ -20,6 +20,7 @@ namespace Ipt_Project_Website
         protected void Session_Start(object sender, EventArgs e)
         {
             Session["User"] = 0;
+            Session["User_ID"] = 0;
         }
     }
 }

@@ -1,0 +1,69 @@
+ROBERT SMITH
+IT Business Analyst II
+E­mail: info@qwikresumc.com
+
+Phone: (0123)­456­789
+SUMMARY
+
+Innovative problem solver with the ability to see the business and technical sides of the problem. Proven
+leadership with exceptional communication skills, both oral and written.
+SKILLS
+Microsoft Project, MS Office, SQL, Testing, Quality Assurance, Database, Agile Methodology
+WORK EXPERIENCE
+
+IT Business Analyst II
+
+Bank Of America ­ September 2015 – December 2016
+
+
+
+
+
+
+
+
+Worked on data strategy i.e how to deliver quality data, maintain live data, historical data and data
+accuracy.
+Implemented validation of source data systems along with data mappings.
+Facilitated sessions for volume requirements, design reviews and periodic sessions for ongoing
+progress.
+Performed and documented gap analysis to determine deltas between existing and proposed systems.
+Created and managed change control requests and managed traceability matrix.
+Developed test strategy, test scenarios, test cases for System integration testing and User Acceptance
+testing.
+Interfaced with software vendors to diagnose issues and define an appropriate course of action for
+resolution.
+
+Application Developer
+
+Bank Of America Merrill Lynch ­ June 2014 – March 2015
+
+
+
+
+
+
+
+
+The project covers various daily, monthly, yearly reports for various plan sponsors for an executive
+stock option.
+Worked with a technical user to analyze existing sap business objects reporting systems.
+Designed various data, system architectural/process flow diagram using Visio, power point.
+Analyzed different web based reporting system to improvise the existing system.
+Prepared various documentation regarding reporting system, deployment, and tester guide.
+Designed and developed simple to complex SQL queries for day to day data analysis.
+Worked on excel version of day to day analysis/support/troubleshoot.
+
+SCHOLASTICS
+
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+
+
+BS in Economics ­ (Calcutta University )MS Degree in Computer Science ­ (New York Institute Of
+Technology ­ Kolkata, West Bengal )Business Object XI ­ (APTECH ASSET Calcutta ­
+Kolkata, West Bengal )
+
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+

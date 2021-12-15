@@ -1,0 +1,73 @@
+ROBERT SMITH
+Sr. Automation Test Engineer
+E­mail: info@qwikresumc.com
+
+Phone: (0123)­456­789
+SUMMARY
+
+Over 9 Years of experience in both manual and automated software Quality Assurance Testing of client­
+server, web­based applications and API testing. Complete understanding of QA methodologies and
+Expertise in performing different kinds of testing such as Functionality testing, GUI testing, System Testing,
+Regression Testing, User Acceptance Testing and Cross Browser Functionality Testing. Experience in
+writing Automation scripts by using VBScript, Java.
+SKILLS
+Microsoft Office, HP Application Lifecycle Management, Rational Quality Manager.
+WORK EXPERIENCE
+
+Sr. Automation Test Engineer
+ABC Corporation ­ April 2014 – May 2016
+
+
+
+
+
+
+
+
+Performed Functional testing, Regression testing, System testing, Integration testing, GUI testing,
+and User Acceptance testing.
+Worked with Cross Browser Testing using Selenium Grid/Selenium Web Driver and Testing
+framework.
+Worked in designing and generating different Test Reports.
+Suites, creating new Testing test cases, modifying the Selenium scripts and writing test Suites using
+Testing.
+Worked on Selenium automation using Selenium Web Driver, Selenium Gid, JAVA, and Testing
+&amp; Maven.
+Proficient in writing Selenium Web Driver automation scripts in JAVA using Maven, Cucumber,
+and Testing Automation Testing for Web Applications.
+Designed and implemented the Page Object Model framework from starch.
+
+Automation Test Engineer
+ABC Corporation ­ 2012 – 2014
+
+
+
+
+
+
+
+Project Abstract Northern Trust, a leading global custody, asset Administration and investment
+management service provider.
+This application serves as the hub application for Northern Trusts internal operations.
+It provides trust banking facilities for Northern Trusts employees.
+In a nutshell, it gives everything needed to maintain and run the trust accounts.
+Trust/Rite is highly scalable internet­friendly n­tiered distributed application and capable of
+servicing small Organizations to very large Organizations.
+Roles & Responsibilities Understanding the application work flow Writing SQL queries to fetch
+data from data base and test compare with application Writing test cases Executing test cases Log
+the defects Provide the status to my supervisor.
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+
+
+Environment Web­based application,.Net, Windows XP, Oracle 9i, QTP (9.0), Quality Center, Data
+driven framework.
+
+SCHOLASTICS
+
+
+­ (Business Process Components in Quality Center using QTP)
+
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+

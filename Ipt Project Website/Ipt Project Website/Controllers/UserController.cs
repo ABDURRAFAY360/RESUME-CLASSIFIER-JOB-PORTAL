@@ -69,6 +69,7 @@ namespace Ipt_Project_Website.Controllers
                     if (u.Email == collection["email"] && u.Password== collection["password"])
                     {
                         Session["User"] = 1;
+                        Session["User_ID"] = u.id;
                         return View("View", u);
                     }
                 }

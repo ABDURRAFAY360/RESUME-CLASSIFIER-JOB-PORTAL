@@ -1,0 +1,102 @@
+Robert Smith
+
+Co­Founder & Data Scientist
+PERSONAL STATEMENT
+Over 12 years of experience in Data Management, Integration, Analysis,
+Software R&D and big data projects, 6 years system analysis and
+presentation in Logistics, Telecom, Finance.
+
+WORK EXPERIENCE
+Co-Founder & Data Scientist
+XCG Design Corp -
+
+April 2016 – 2019
+
+Responsibilities:
+ Statistical Data Modeling, Database Data Modeling, Advanced R/SQL
+Development.
+ Perform data-extraction, transformation and loading (ETL) development
+and programming.
+ Perform data-mining, data analysis and performance measurements on
+business-information systems by using analytics tools and
+methodologies.
+ Carrying out Marketing Analytics (Basel II), Risk Management (Logistic
+regression) and Survival Analysis to evaluate customer information.
+ Worked on importing data from various sources and performed
+transformations using Map Reduce, Hive to load data into HDFS.
+ Configured MR/Sqoop jobs to import data from RDBMS into HDFS.
+ Created HBase tables to store variable data formats coming from
+different portfolios.
+
+Data Scientist
+Cyberdata Technologies Inc -
+
+2014 – 2016
+
+Responsibilities:
+ In support of National Oceanic and Atmospheric Administration (NOAA)
+activities, Dr.
+ Kunkel supports the transition of the models from a research system to
+a fully operational system operated by the National Centers for
+Environmental Prediction (NCEP) Central Operations (NCO) in IDP cloud
+computing system.
+ Establishing and enhancing operational monitoring working with the
+SDMs to identify monitoring gaps documenting; operational review
+meetings, be familiar with all aspects of NCO operations creating an
+archive of operational problems and solutions.
+ Dr.
+ Kunkel participates in Senior staff meetings which track issues with all
+of NOAA applications, including issues with retrieving and storing real
+time data, supercomputer operation and networking issues.
+ Also, Dr.
+ Kunkel, as lead for the Space Weather task at CyberData, provides
+guidance and oversight for Space Weather science activities to identify
+and investigate a new modeling capabilities, research developments,
+and observational advances as well as explore the interaction with
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+CONTACT DETAILS
+1737 Marshville Road,
+Alabama
+(123)-456-7899
+info@qwikresume.com
+www.qwikresume.com
+
+SKILLS
+SAS, R, Python, Matlab,
+SQL, Hadoop, Oracle,
+SQL Server, Java,
+Machine Learning,
+Hypothesis Testing, Time
+Series Analysis,
+Marketing Analysis,
+Visualization, Excel
+Modeling.
+
+LANGUAGES
+English (Native)
+French (Professional)
+Spanish (Professional)
+
+INTERESTS
+Climbing
+Snowboarding
+Cooking
+Reading
+
+REFERENCES
+Reference – 1 (Company
+Name)
+Reference – 2 (Company
+Name)
+
+ionosphere/magnetosphere models; She also identifies operational
+requirements for space weather and other weather applications.
+
+Education
+M.S. in Applied Statistics - August 2013(Manderson Graduate School
+of Business - Tuscaloosa, AL)
+
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+

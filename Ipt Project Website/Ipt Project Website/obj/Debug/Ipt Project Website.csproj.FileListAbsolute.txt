@@ -164,3 +164,6 @@ F:\Sem 7\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\obj\Debug\I
 F:\Sem 7\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\obj\Debug\Ipt Project Website.csproj.CopyComplete
 F:\Sem 7\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\obj\Debug\Ipt Project Website.dll
 F:\Sem 7\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\obj\Debug\Ipt Project Website.pdb
+C:\Users\zah\Documents\GitHub\Project_IPT_New\Ipt Project Website\Ipt Project Website\bin\BouncyCastle.Crypto.dll
+C:\Users\zah\Documents\GitHub\Project_IPT_New\Ipt Project Website\Ipt Project Website\bin\itextsharp.dll
+C:\Users\zah\Documents\GitHub\Project_IPT_New\Ipt Project Website\Ipt Project Website\bin\itextsharp.xml

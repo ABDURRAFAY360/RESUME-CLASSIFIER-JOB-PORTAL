@@ -1,0 +1,67 @@
+ROBERT SMITH
+Jr. Automation Test Engineer
+Phone: (0123)­456­789 | Email: info@qwikresume.com | Website: Qwikresume.com
+
+SUMMARY
+Over 6+ years of experience in Software analysis, Software Quality Assurance Testing of Web,
+Windows, Web Services, Client/Server applications and databases in Finance, Healthcare &
+Media Applications. Experience in all stages of the Software Development Life Cycle and QA Life
+Cycle andin all dimensions of Functionality, Usability & Reliability.
+
+CORE COMPETENCIES
+Selenium, Automation, Quality Assurance, Manual Testing, SQL.
+
+PROFESSIONAL EXPERIENCE
+Jr. Automation Test Engineer
+Johnson & Johnson ­ September 2015 – 2019
+Key Deliverables:
+ Analysis of Business and Requirement Specifications.
+ Designing Test Lab and formulation of Test Strategy, Test Plans Performed functional
+testing to identify various critical points in the application and automated it by using
+Selenium WebDriver.
+ Involved in implementation of Test Automation Framework build using Selenium
+WebDriver, to handle, TestNG and Maven technologies under Java platform utilizing
+industry leading harness design patterns and approaches.
+ Used POM to create Object Repository for Web UI Elements Performed data driven testing
+by using JDBC as a data source in SOAP UI and configured SQL queries to fetch data
+from the Oracle database.
+ Developed test code in Java language using Eclipse, IDE and TestNG framework.
+ Developed Test Frameworks in Selenium for UI Regression Test Automation and when
+necessary, and potentially execute Unit Test Automation (Java /TestNG).
+ Configured Selenium WebDriver, TestNG, Maven tool and created Selenium automation
+scripts in Java, Python using Junit prior to agile release.
+
+Automation Test Engineer
+ABC Corporation ­ November 2013 – December 2014
+Key Deliverables:
+ Run the Automated Regression suite and analyzed results and file bugs Helped in
+preparation of test plans in accordance with the business requirements.
+ Developed and Executed Manual test cases for Functional testing of various modules of
+the application.
+ Responsible in executing test scripts on different browsers and checked for compatibility.
+ Effectively participated in every day agile scrum stand­up meetings and participated in
+Iteration planning and retrospective meetings.
+ Performed functional testing for each sprint using Manual Testing.
+2259 Oak Street, Old Forge, New York, 13420
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+ROBERT SMITH
+Jr. Automation Test Engineer
+Phone: (0123)­456­789 | Email: info@qwikresume.com | Website: Qwikresume.com
+
+
+
+
+Executed positive and negative scenarios.
+Automated functional scenarios using Selenium Webdriver.
+
+EDUCATION
+
+
+Bachelor of Technology in Computer Science ­ August 2006(Bapatla Engineering College
+­ Andhra Pradesh ­ India)
+
+2259 Oak Street, Old Forge, New York, 13420
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+

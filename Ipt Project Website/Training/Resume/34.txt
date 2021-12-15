@@ -1,0 +1,80 @@
+ROBERT SMITH
+Site Electrical Engineer
+info@qwikresume.com | LinkedIn Profile | Qwikresume.com
+
+A dedicated and highly reliable Site Electrical Engineer with extensive electrical and
+Management experience (10+ years) in Auxiliary Electrical Systems design and
+analysis in consulting and field engineering environments. Skilled in electrical
+drawings development, Arc Flash Hazard, Short Circuit and Motor Starting analyses.
+Seeking an Electrical Engineering position with a company that offers opportunities
+for career growth and advancement, and allows me to utilize my educational
+background and experience to become an essential asset to the company.
+
+EXPERIENCE
+Site Electrical Engineer
+ABC Corporation - 2009 – 2016
+ Primary responsibilities included the design and upgrade of electrical
+distribution systems of mission-critical facilities to support the
+availability/reliability and expansion of critical loads.
+ Designed addition and replacement of 20+ Power Distribution Units
+(PDU).
+ Upgraded existing electrical system to &quot;n+1&quot; catcher
+system configuration eliminating the risk of overloading alternate
+power sources.
+ Developed plans to reconfigure remote power panels connections in
+order to balance data center critical loads throughout the electrical
+distribution system.
+ Developed the method of procedures for electrical work to be
+performed while all critical loads and essential panels were energized.
+ Developed a system to efficiently manage computer loads and
+cutover of computer equipment, saving data centers engineers
+valuable maintenance time.
+ Modified existing ups systems at data centers to better balance
+existing and future loads on the electrical system.
+
+Associate Electrical Engineer
+ABC Corporation - 2006 – 2009
+
+
+
+
+
+
+
+Responsibilities included the design and upgrade of medium/low
+voltage auxiliary electrical systems.
+Developed one-line, three-line and layout drawings for switchgear,
+MCCS and panelboards.
+Sized protective devices (breakers, motor starters, and fuses) and
+cables in accordance with NEC and IEEE standards.
+Performed electrical design quality assurance checks reviewed shop
+drawings of electrical equipment to ensure conformance with
+standards and project requirements.
+Developed specifications and procurement packages for electrical
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+
+
+
+equipment such as transformers, switchgear, MCC and panelboards.
+Developed cost estimate for electrical work associated with the
+addition of equipment required to pump 10,000 gpm of product.
+This is Dummy Description data, Replace with job description relevant
+to your current role.
+
+EDUCATION
+
+
+Masters Of Science in Engineering Management - 2005 (University Of
+Kansas)Bachelor Of Art in Physics - (University Of Central Missouri - May,
+MO)Bachelor Of Science in Electrical Engineering - (Oklahoma State
+University)
+
+SKILLS
+Auxiliary Electrical Power Systems Design, Auxiliary Electrical Power Systems
+Analysis, Electrical Equipment Specification, Electrical Field Engineering, ETAP, SKM,
+Mathcad, Microsoft Office
+
+2
+
+

@@ -11,7 +11,10 @@ namespace Ipt_Project_Website.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+    using System.ComponentModel.DataAnnotations;
+    using System.Web;
+
     public partial class Resume
     {
         public int id { get; set; }
@@ -20,5 +23,6 @@ namespace Ipt_Project_Website.Models
         public int user_id { get; set; }
         public string Predicted_labels { get; set; }
         public string filepath { get; set; }
+        public HttpPostedFileBase UploadFile { get; set; }
     }
 }

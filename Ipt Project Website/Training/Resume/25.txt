@@ -1,0 +1,66 @@
+ROBERT SMITH
+Data Scientist/Advocate
+Phone: (0123)­456­789 | Email: info@qwikresume.com | Website: Qwikresume.com
+SUMMARY
+
+Over 7 years of strong IT experience in field of Data Analytics & Data Science focused on
+processing and analyzing large amount of data using Hadoop (Mahout, Hive, PIG), R, MS
+Excel, MS Access 2012, MS SQL 2012, SAS, Matlab. Proficient in Machine Learning,
+Data/Text Mining, Statistical Analysis & Predictive Modeling. Efficient in: data
+acquisition, storage, analysis, integration, predictive modeling, logistic regression,
+decision trees, data mining methods, forecasting, factor analysis, cluster analysis,
+ANOVA and other advanced statistical techniques.
+CORE COMPETENCIES
+
+Data Analyst, Big Data Analyst, Hadoop, Big Data Scientist.
+PROFESSIONAL EXPERIENCE
+
+Data Scientist/Advocate
+Best Buy ­ February 2015 – 2019
+Key Deliverables:
+ Description The focus of project was on sales prediction by using sales data into
+supervised classification algorithm to predict customer churn and implement
+successful strategy.
+ Responsibilities Supported sales forecasting &amp; planning team by improving
+time series &amp; principal component analysis.
+ Utilized machine learning techniques for predictions &amp; forecasting based on
+the Sales training data.
+ Executed overall data aggregation/alignment &amp; process improvement
+reporting within the sales dept.
+ Managed Data quality &amp; integrity using skills in Data Warehousing,
+Databases &amp; ETL.
+ Monitored and maintained high levels of data analytic quality, accuracy, and
+process consistency.
+ Assisted sales management in data modeling.
+
+Data Scientist
+ABC Corporation ­ March 2014 – February 2015
+Key Deliverables:
+ Description The aim of the project was to analyze individual customer behaviors
+and spending activities.
+ By applying unsupervised and supervised machine learning techniques the team
+have been able to predict customer behaviors.
+ Responsibilities Analyzed individual customer behavior.
+ Segmented customers based on spending activities.
+2259 Oak Street, Old Forge, New York, 13420
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+ROBERT SMITH
+Data Scientist/Advocate
+Phone: (0123)­456­789 | Email: info@qwikresume.com | Website: Qwikresume.com
+
+
+
+
+
+Categorized risky customers based on the days past due parameter.
+Categorized active and inactive customers based on their utilization.
+Designed, developed and deployed statistical data models.
+
+EDUCATION
+Diploma
+
+2259 Oak Street, Old Forge, New York, 13420
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+

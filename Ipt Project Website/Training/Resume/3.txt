@@ -1,0 +1,65 @@
+Muhammad Ahsan
+Karachi/Pakistan | +923110237524
+imranahsan716@gmail.com
+ github |  linkedin
+OBJECTIVE
+Accept and cater the new challenges and situations, and make positive contributions towards the given position
+and tasks to enhance my knowledge, skills and ability.
+PORTFOLIOS
+•Github: https://github.com/ahsan7162
+•Behance: https://www.behance.net/ahsanimran
+EDUCATION
+BACHELOR OF COMPUTER SCIENCE 2018 - 2022(expected)
+NATIONAL UNIVERISTY OF COMPUTER AND EMERGING SCIENCES (FAST-NUCES)
+• GPA: 3.44
+PRE-ENGINEERING 2016 - 2018
+NCR-CET COLLEGE
+• Grade: A (78%)
+EXPERIENCE
+INTERN UI DESIGNER 07/2020 - 08/2020 / Karachi
+UBBASOFT
+• Designed UI of websites for three clients for providing best user experiences.
+• Researched different available UI to provide better user flows .
+SKILLS
+• Data-Analytics Tools:
+Python - Pandas, Scikit-Learn, MatPlotLib, Seaborn
+,R- ggplot2 Lattice, MS Excel
+PROGRAMMING LANGUAGUES Python | C++ | C | Javascript | PHP | HTML | CSS
+PROJECT MANAGEMENT Agile | Scrum
+FRAMEWORKS & LIBRARIES Node.js | Express.js | Pandas | Matplotlib
+DATABASES MongoDB | MySQL | PhpMyadmin
+DESIGN SOFTWARES Adobe XD | Adobe illustrator | Adobe Photoshop
+VERSION CONTROL Github
+MISC Graphic Designing | UI/UX | Wordpress
+PROJECTS
+MARKETING SYSTEM
+• Designed and developed an application for buying and selling different products and maintaining stocks of a company.
+• Language: C++ .
+• A similar type of system was developed on windows form which provided GUI to increase the productivity of the
+system.
+• Language: C , Database: MYSQL.
+WORDPRESS BLOG WEBSITE
+• Blog contains three categories of my interest which are photography, gaming and designing.
+ELECTROMATE (ECOMM WEB APP)
+• In this project I developed a Ecomm website in which Shop owner can sell different tech items like mobile, laptops
+and PC components.
+• Stack: HTML, CSS, Javascript, Bootstrap, PHP, MYSQL(database) .
+• Github: https://github.com/ahsan7162/Electromate-Ecomm-APPDYNAMIC
+PROGRAMMING SOLVER 01/2021 - 01/2021
+• In this system, I have created a web application to show the working of 10 different dynamic programming algorithms.
+this will in help in visualizing how the specific algorithm works.
+• Stack: HTML,CSS,Javascript,PHP .
+• Live Demo: http://dynamic-solver.rf.gd/index.php?i=2
+CERTIFICATES
+• Graphic Design (Digiskills) (08-2020)
+• Introduction to Git and Github (Coursera) (08-2020)
+• Python For Everybody Specialization (Coursera) (05-2020) { coursera.org/verify/specialization/R86VA39WYXMJ }
+• The Complete 2021 PHP Full Stack Web Developer Bootcamp (udemy) (12-2020) { ude.my/UC 4949ac7b-bb5c-4969-
+Ba2-5b208efB82c }
+CO-CURRICULAR ACTIVITIES
+• Co-head Design (The literary Club Society) (09/2019 - 07/2020).
+• Head Design (ACM-NUCES Society) (10/2020 - 10/2021(expected)).
+HONORS AND AWARDS
+• Dean’s List of Honors 5th semester of BSCS (11/2019).
+• Special Mention Design Team (The Grand Debate (Event)) (11/2019).
+• Director Design (Developers’ Day 2021) (04/2021).
