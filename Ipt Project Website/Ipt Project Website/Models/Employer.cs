@@ -65,7 +65,7 @@ namespace Ipt_Project_Website.Models
         public string Company_name { get; set; }
         [DisplayName("Company Contact Number")]
         [Required(ErrorMessage = "This Field is Required.")]
-        [RegularExpression(@"^\(?([0-9]{4})\)?[-. ]?([0-9]{7})$", ErrorMessage = "Not a valid phone number")
+        [RegularExpression(@"^\(?([0-9]{4})\)?[-. ]?([0-9]{7})$", ErrorMessage = "Not a valid phone number")]
         public string Company_contact_number { get; set; }
     }
 }

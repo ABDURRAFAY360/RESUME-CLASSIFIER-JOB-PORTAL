@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Ipt_Project_Website.Models;
+using System.Web.SessionState;
 
 namespace Ipt_Project_Website.Controllers
 {
@@ -18,7 +19,7 @@ namespace Ipt_Project_Website.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]  
+        [ValidateAntiForgeryToken]
         public ActionResult UserSignUp(User user)
         {
             DbModel dbmodel = new DbModel();
@@ -67,6 +68,7 @@ namespace Ipt_Project_Website.Controllers
                 {
                     if (u.Email == collection["email"] && u.Password== collection["password"])
                     {
+                        Session["User"] = 1;
                         return View("View", u);
                     }
                 }
