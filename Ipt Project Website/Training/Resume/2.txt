@@ -1,0 +1,101 @@
+Abdur Rafay
+A Passionate Undergraduate Student
+A Computer Science student seeking opportunities in a organization to utilize acquired academic knowledge and skills. An energetic,
+passionate and skilled individual who believes in adding values to a company by achieving targets and developing the best performance
+in the organization.
+abdurrafay360@gmail.com +923341872949
+59-L block 2 PECHS , Karachi, Pakistan linkedin.com/in/abdur-rafay-aab7791a7
+EDUCATION
+Bachelors Degree in Computer Science
+National University of Computer and
+Emerging Sciences (NUCES)
+08/2018 - 06/2022, CGPA : 3.33 / 4
+A-Level
+Beaconhouse College Campus PECHS(BCCP)
+08/2016 - 08/2020,
+O-Level
+St. Peter's High School
+08/2003 - 08/2016,
+ACADEMIC PROJECTS
+Dynamic Problem Solver (01/2021 - 01/2021)
+Implemented on -- HTML, CSS, Javascript, Jquery, and PHP.
+Features -- Our website provides an interactive User
+interface(UI) for problem selection ( Dynamic algorithm) and
+provides a solution step by step.
+Motivation -- The goal for making this project was to make the
+dynamic problems understandable by everyone.
+Online Shopping Store - Choose Your Closet
+(09/2020 - 12/2020)
+Dynamic website Implemented on --- HTML, CSS, Bootstrap,
+Javascript, Jquery, and PHP (Laravel framework).
+Features -- Admin portal, Seller Portal, and Customer Portal.
+We also have options for filter search, Vouchers, Sales, reviews,
+and comments.
+Special feature -- Customizer where people can customize his or
+her clothing according to their own will.
+Coffee Shop Website (08/2020 - 08/2020)
+Static website Implemented on -- HTML, CSS, Bootstrap and
+Javascript
+Features -- The website contains information and methods of
+processing coffee beans. It also has a survey form for feedback
+about coffee preferences.
+Voice Controlled Shell (05/2020 - 06/2020)
+Implemented on -- Python, PyAudio,Google-speech-totext(
+gstt), linux and Google-text-to-Speech(gtts).
+Features -- A project based on Voice User Interface on the shell,
+which uses voice commands to run bash scripts that perform
+various tasks like shutting down the system, listing files
+present in the current directory, and other such operations.
+Relevant Word Suggestor (10/2019 - 12/2019)
+Implemented on -- C++ and Assembly Language(x86).
+Features - A console application is made using a combination of
+functions that identify the theme of the sentence and misspelled
+words in a sentence and suggest relevant correct word
+replacements as per theme and irrelevant correct words which
+are not part of the teme.
+SKILLS
+Programming : C, C++, Python, PHP and JavaScript.
+Web Development : HTML, CSS, Bootstrap, JavaScript,
+jQuery and PHP(Laravel Framework)
+Database: MySQL, Oracle and PL/SQL
+Data Science : Python, Pandas and Matplotlib.
+Miscellaneous : WordPress Developer, Leadership, Adobe
+Premier Pro and Adobe Photoshop
+ACHIEVEMENTS
+DEAN's List (01/2021)
+Students with the SGPA 3.50 or more in a semester are included in the
+DEAN's List. Such a student receives a Certificate and his/her name is also
+placed on the University's website as honor.
+Teacher Assistant (09/2020 - 12/2020)
+Worked as a teacher assistant for discrete mathematics which helped me
+in improving my teaching skills and also taught me how to manage
+different tasks at the same time.
+Gold medalist (08/2018)
+Achieved gold medal from Beaconhouse College Campus PECHS for
+scoring exceptional grades in A-level CIE.
+Scholarship (08/2016 - 08/2018)
+Received 75% academic scholarship in AS-level for scoring A grades in Olevel
+CIE and100% academic scholarship in A-level for scoring straight A
+grades in AS-level CIE
+Best Actor Award (11/2017)
+Performed as a sitcom character and won best actor award in Curtain Call
+hosted by Beaconhouse College Campus PECHS
+EXTRA-CURRICULAR ACTIVITIES
+Think n Create(Socirty) Co-head Media and Promotion
+(10/2020 - 06/2021)
+Society of the Fast National University of Computer and Emerging
+Sciences (NUCES) which aims to develop the skills of students, this position
+helped me to understand how social media platforms work as a marketing
+platform and also shaped my leadership skills.
+Coder's Cup hosted by National University of Computer
+and Emerging Sciences (NUCES) (10/2018)
+Participated in annual competitive speed programming competition , this
+competition introduced me the idea of competitive coding competition.
+Dramatics Society of Beaconhouse College Campus
+PECHS(BCCP) (09/2017 - 04/2018)
+Part of Dramatics Society which helped me alot not only in improving my
+directing skills but also polished my public speaking skills
+Beacon MUN hosted by Beaconhouse College Campus
+PECHS(BCCP) (10/2017)
+Volunteering in Beacon MUN for security department which helped in
+improving my communication and managing skills.

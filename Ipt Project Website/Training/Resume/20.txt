@@ -1,0 +1,58 @@
+ROBERT SMITH
+Principal Data Scientist
+Phone: (0123)­456­789 | Email: info@qwikresume.com | Website: Qwikresume.com
+
+SUMMARY
+Decades of experience with 18 publications involving data mining, statistics, machine
+learning/predictive analytics, image processing, and time­frequency domain signal processing of
+time­series signals. An experienced programmer A creative thinker with earnest curiosity and
+eagerness to learn new skills US citizen.
+
+CORE COMPETENCIES
+Decades of experience in data mining, statistics, machine.
+
+PROFESSIONAL EXPERIENCE
+Principal Data Scientist
+BOTTLENOSE ­ March 2013 – 2019
+Key Deliverables:
+ Real­Time Trend Detection First non­founder employee.
+ Developed and established the Intelligent Playground of Bottlenose from the ground up.
+ This platform proved to be a central player in raising over $15 million in funding.
+ Used weighted SVM on top of signal processing techniques to find trends in social­media
+before competitors.
+ Found breaking­news significantly sooner than news agencies on over 80% of occasions.
+ Developed patented methods of correlation on streaming data.
+ Combined noise­deduction with different correlation metrics to detect time­lag relationship
+between thousands of live social­media data metrics.
+
+Data Scientist
+ABC Corporation ­ 2012 – 2013
+Key Deliverables:
+ Worked on building several machine learning algorithms to classify malicious files and
+shipping the completed model as web API and software package.
+ Worked with big data using Cassandra and developing APIs.
+ Worked with big data using Apache Spark.
+ Developed machine learning algorithm to classify random domains based on the name
+only and implemented it into a web service and software package.
+ Developed IP reputation scoring using mathematical modeling and implemented it into a
+web service.
+ Developed IP to ASN mapping and implemented it into a web service.
+ Evaluated prospective vendor products..
+
+EDUCATION
+
+2259 Oak Street, Old Forge, New York, 13420
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+ROBERT SMITH
+Principal Data Scientist
+Phone: (0123)­456­789 | Email: info@qwikresume.com | Website: Qwikresume.com
+
+
+
+PhD in Statistics ­ September 2013(University of California ­ Los Angeles, CA)
+
+2259 Oak Street, Old Forge, New York, 13420
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+

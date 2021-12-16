@@ -1,0 +1,82 @@
+Data Scientist
+
+ROBERT SMITH
+
+Phone: (123) 456 78 99
+Email: info@qwikresume.com
+Website: www.qwikresume.com
+LinkedIn:
+linkedin.com/qwikresume
+Address: 1737 Marshville Road,
+Alabama.
+
+Objective
+Data Scientist with PhD in Physics and 1+ industrial experience. Two years of working experience
+in Data Analysis team of LIGO Scientific Collaboration [$3M Special Breakthrough Prize winner of
+2016]. Over ten years of successful research experience in both theoretical and computational
+physics. Strong problem-solving and analytical skills. Advanced programming proficiency. Certified
+in Data Analysis and Machine Learning.
+
+Skills
+Data Mining, Data Analysis, Machine Learning, Python, R, MATLAB, Sphinx, LaTeX, Mathematica,
+Maple, GIT, CVS, HTCondor.
+
+Work Experience
+Data Scientist
+ABC Corporation
+
+
+
+
+
+
+
+
+
+­ May 1994 – May 2005
+
+Assisted in determining client needs, deliverable design, estimates and feasibility for
+analytical projects concerning a custom study for a manufacturer who is using the results to
+support a litigation claim.
+Served as an internal resource for Jacknife programming and documentation.
+Designed and developed small scale deliverables related to the custom study.
+Participated in the Post Project Review QIP team.
+Responsible for results reporting in the appropriate media and creation of supporting
+documentation for the client.
+Monitored products from statistical programs for accuracy, consistency and statistical validity.
+Designed and applied statistical and mathematical methods for corporate analytics that were
+implemented into client-facing products.
+
+Data Scientist
+ABC Corporation
+
+
+
+
+
+
+
+
+­ 1993 – 1994
+
+Maintained automated ETL for reporting.
+Implemented Data mining and machine learning algorithms to describe and predict user
+behavior on various retailer websites.
+I revamped their &quot;Predictive Marketing&quot; process to be more data driven and
+profitable.
+The new process was able to hone in on more useful user segments that had a significant
+increase in conversion.
+Skills Used Data Cleansing and Data Analysis using Python, Scala, R and Spark.
+Cloud computing on AWS.
+Automation of reporting..
+
+Education
+© This Free Resume Template is the copyright of Qwikresume.com. Usage
+Guidelines
+
+Bachelor Of Science - (Stanford)
+
+© This Free Resume Template is the copyright of Qwikresume.com. Usage
+Guidelines
+
+

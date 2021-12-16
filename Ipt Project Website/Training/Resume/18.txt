@@ -1,0 +1,141 @@
+UI Developer resume,Los Angeles, CA
+
+Tweet (function() { var s = document.createElement('SCRIPT'), s1 =
+document.getElementsByTagName('SCRIPT')[0]; s.type = 'text/javascript'; s.async = true;
+s.src = 'http://widgets.digg.com/buttons.js'; s1.parentNode.insertBefore(s, s1); })();
+SUMMARY:
+- UI/Web Developer with over 6 years of professional experiences in Web Designing and
+User Interface Development
+using Web Technologies.
+- Strong developing experience with HTML, DHTML, CSS and JavaScript.
+- Experienced in JavaScript frameworks like JQUERY.
+- Expertise in using XML/JSON and AJAX to link with back-end applications.
+- Expertise in debugging and troubleshooting existing code using Firebug and Developer
+Tools.
+- Strong experience with Cross Browser Compatibility issues and Optimization for web,
+including CSS Sprites and best practices.
+- Well experienced in using version control systems subversion (SVN), Visual source
+Safe and team Foundation Server (TFS).
+- Experience in Development and Documentation throughout the entire SDLC.
+- Experience in designing Rich Internet Application (RIA’s) with JQUERY, AJAX.
+- Up to date Knowledge with the latest industry trends in UI design and usability.
+- Strong communication, problem-solving, and planning skills, with ability to work
+independently or in a team environment.
+
+TECHNICAL SKILLS:
+Web Technologies: HTML4/5, CSS2/3, XML, AJAX, JavaScript, JQUERY, JSON
+Database: Oracle9x/10x, MS SQL Server, MS-Access, SQL
+Operating: Windows (vista/9x/NT/XP), Win 7
+Developer Tools: Eclipse IDE, Dreamweaver, MS Office, MS-Visio, MS Excel
+Browser: IE6, 7 & 8, Firefox, Opera, Chrome 4, Safari 5
+
+EDUCATION:
+
+B.S. in Computer Science
+Confidential, University, Northridge
+PROFESSIONAL EXPERIENCE:
+
+1/4
+
+UI Developer resume,Los Angeles, CA
+
+Confidential,Memphis, TNDec 2010 - Present
+Sr. UI Developer
+Description: FedEx is an American global courier delivery Services Company. The company
+provides customers and businesses worldwide with a broad portfolio of transportation,
+e-commerce and business services.
+Responsibilities:
+- Responsible for creating the look and feel of the public website.
+- Worked with designer who designed user interfaces and prototypes for a web-based
+internal system.
+- Worked on front end pages that were developed in a professional manner using HTML,
+CSS, JavaScript, and JQUERY
+.
+- Developed and implemented user interfaces as per latest W3C standards.
+- Developed client side validation code using JavaScript and JQUERY.
+- Creating cross-browser compatible and standards-compliant CSS-based page layouts.
+- Involved in fixing Front-End issues with the layouts.
+- Actively used XML (documents and transformations) for creating templates with dynamic
+data from
+XML file.
+- Extensively used/modified JQUERY to perform AJAX calls for creating interactive web
+pages on
+JSON response.
+- Worked with backend developers to convert HTML/CSS non-functional pages into
+dynamic JSP pages.
+- Developed cross-browser pages using CSS, HTML, DHTML, and JavaScript
+- Coded pages with best Search Engine Optimization (SEO) techniques.
+- Designed applications that execute on various browsers such as Internet Explorer, Mozilla
+Firefox, Google Chrome, and Opera using various debugging tools like Firebugs/IE Developer
+Tools.
+
+Environment: HTML 4/5, CSS2/3, JavaScript, JQUERY, AJAX, JSON, XML,JSP, Eclipse
+and SVN
+
+Confidential, Sep 2008 Dec 2010
+UI Developer Los Angeles, CA
+
+Description: DIRECTV is one of the world’s leading providers of digital television entertainment
+service delivering a premium video experience to more than 32 million customers in the U.S and
+
+2/4
+
+UI Developer resume,Los Angeles, CA
+
+Latin America.
+Responsibilities:
+- Designed the Web application layout and forms using HTML, CSS, and JavaScript.
+- Worked with business analysts to understand their business models and goals and help
+define strategy, content, and features.
+- Converted PSD mockups into pure hand-written HTML and CSS pages.
+- Handled all the client side validations, slide show, hide and show controls, dropdown
+menus and tab navigation using
+JQUERY.
+- Responsible for transforming design mock-ups to W3C standards compliant HTML pages
+using
+HTML, XHTML, CSS.
+- Wrote code to fetch data from Web services using JQUERY AJAX via JSON response
+and updating the HTML pages.
+- Participated in day-to-day meeting, status meeting, strong reporting and effective
+communication with project manager and developers.
+- Participated with SQA team in bug thrashing sessions to discuss and resolve bugs that
+were reported in JIRE.
+- Used JavaScript libraries to create slider and page-turning animations on calendar
+widgets.
+- Designed web pages and used applications that meet business and user goals through a
+positive user experience.
+- Responsible for creating the screens with table less design following W3C standards.
+
+Environment: HTML, XHTML, CSS, JavaScript, JQUERY, AJAX, XML, JSON, SVN and
+Eclipse.
+
+Confidential Nov 2006 Sep 2008
+
+Web Developer Santa Monica, CA
+
+Description: Diversify Marketing is an online marketing consulting company with over 10 years
+experience in sales and advertising.
+Responsibilities:
+
+3/4
+
+UI Developer resume,Los Angeles, CA
+
+- Involved in extensive HTML coding. .
+- Interacted with clients to understand their existing applications and design the site
+according to their system requirements.
+- Worked with business analysts to understand their business models and goals and help
+define strategy, content, and features.
+- Developed web forms using HTML for the application
+- Developed data insertion forms and validated them using JavaScript..
+- Participated in day-to-day meeting, status meeting, strong reporting and effective
+communication with project manager and developers.
+- Participated in bug thrashing sessions to discuss and resolve bugs with developers
+- Designed web pages and used applications that meet business and user goals through a
+positive user experience.
+
+Environment: HTML, CSS, JavaScript, MySQL and Window XP
+
+4/4
+
+

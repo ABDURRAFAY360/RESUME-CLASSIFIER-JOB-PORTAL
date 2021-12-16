@@ -1,0 +1,70 @@
+ROBERT SMITH
+Java/Python Developer
+Phone: (0123)­456­789 | Email: info@qwikresume.com | Website: Qwikresume.com
+
+SUMMARY
+3+ years of SOFTWARE DEVELOPMENT EXPERIENCE in Python, Java, and IDEs ­ Sublime
+text, PyCharm, Eclipse, PyDev. Highly experienced in all phases of Software Development Life
+Cycle(SDLC). Expert in Web application development.
+
+CORE COMPETENCIES
+Technical : Frameworks Django, Web2py, Flask, Struts, Pylons And CSS Bootstrap, TurboGears,
+Web2py, Openstack Web Technologies HTML, CSS, DOM, SAX, Java Script, JQuery, AJAX,
+XML, Angular.JS Programming Languages Python, Java, SQL And PL/SQL. J2EE Technologies
+JSP, Java Servlets, JDBC And JMS. Version Control Git (GitHub)
+
+PROFESSIONAL EXPERIENCE
+Java/Python Developer
+Computek Solutions ­ March 2015 – Present
+Key Deliverables:
+ Written with object­oriented Python, Flask, SQL, Beautiful Soup, HTTPLIB2, JINJA2,
+HTML/CSS, BootStrap, Jquery, Linux, Sublime Text, GIT.
+ Developed the required XML schema documents and implemented the framework for
+parsing XML documents.
+ Build application and database servers using AWS EC2 and create AMIS also using RDS
+for Oracle DB.
+ Developed web applications in DJango frameworks Model View Control (MVC)
+architecture.
+ Developed custom tags to simplify the template code. Designed UI screens using
+templates, Ajax, Html, and JSon. Used Javascript for client side validation.
+ Involved in the analysis, design, and development and testing phases of software
+development life cycle (SDLC).
+ Scheduling tasks on windows task scheduler to run the Python scripts to generate reports
+for frequent interval of times and also send email alerts.
+
+Python Developer
+ABC Corporation ­ Mar 2010 – Mar 2015
+Key Deliverables:
+ Worked on windows server vm to run reporting scripts each day and make the reports
+available via http using an iis virtual directory.
+ Create on­demand daily and weekly reports by invoking scripts with custom arguments and
+parameters to provide actionable data to the test owners.
+ Managed datasets using pandas dataframes and mysql database queries from python
+using python­pyodbc connector package to retrieve information.
+ Wrote programs for performance calculations using numpyand sqlalchemy.
+2259 Oak Street, Old Forge, New York, 13420
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+ROBERT SMITH
+Java/Python Developer
+Phone: (0123)­456­789 | Email: info@qwikresume.com | Website: Qwikresume.com
+
+
+
+
+
+Developed a portal to manage and entities in a content management system using flask.
+Added several options to the application to choose algorithm for data and address
+generation.
+Used ajax and jquery for transmitting json data objects between frontend and controllers.
+
+EDUCATION
+
+
+Bachelor Degree in Computer Science in Computer Science ­ (Princeton University,
+Princeton )
+
+2259 Oak Street, Old Forge, New York, 13420
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+

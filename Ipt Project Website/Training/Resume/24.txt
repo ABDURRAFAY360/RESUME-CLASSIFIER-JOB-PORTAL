@@ -1,0 +1,85 @@
+ROBERT SMITH
+Lead Data scientist
+info@qwikresume.com | https://Qwikresume.com
+
+Experienced data analyst in providing predictive modelling for multinational
+companies and start-ups, leveraging expertise in business strategy and
+operations. Project experience includes machine learning, deep learning, and big
+data.
+MAY 2010 – JUNE 2015
+
+LEAD DATA SCIENTIST - ABC CORPORATION
+
+
+
+
+
+
+
+
+
+
+Data Mining, Modeling, and Algorithm Development Implemented novel
+algorithms for modelling chemical systems and mining chemical databases
+using extensive application of graph theory.
+Algorithms include conformation sampling, drug design, and reaction based
+design through graph manipulations.
+Conceptualization and design of a hierarchical database enabling fast graph
+isomorphism searches for storing and retrieving chemical information.
+Software Development Experience developing object-oriented code in a team
+environment using software design patterns, revision control and unit-testing.
+Cross-platform software development on Linux, Windows, Mac Extensive
+experience in graph theory applications, relational databases and multithreaded code.
+Predictive Modeling, and Statistical Analysis Using artificial neural networks
+(ANN) for correlating chemical structure to drug likeness of molecules.
+Identified novel molecules with activity against a cancer causing protein target.
+
+2005 – 2010
+
+DATA SCIENTIST - ABC CORPORATION
+
+
+
+
+
+
+
+
+Worked on, multiple projects to leverage statistical learning/machine learning
+algorithms to automate Alternate Asset Servicing.
+The automation helped NT to reduce errors and improve operational efficiency.
+Further, developed BI reports that provided predictive analytics & Reporting
+with dashboards on analyst performance, client activity, future workload &
+anomalies based on data collected from discrete applications.
+Defined Project Scope, project Charter & Business Case Prototype machine
+learning algorithm for POC (Proof Of Concept) Performed Data Cleaning,
+features scaling, features engineering, Developed predictive models for use in
+machine learning platform using the scikit-learn python framework Improved
+statistical models using learning curves, parameter curves, feature selection,
+and regularization.
+Performed ad-hoc data analysis for customer insights using SQL using Amazon
+AWS Hadoop cluster Developed MapReduce pipeline for feature extraction
+
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+
+
+
+Implemented Support Vector Machine (lite) Performed Principal Component
+Analysis (PCA) & Linear Discriminate Analysis(LDA) Fine-tuned low bias & High
+variance trade off Defined the technical requirements of the analytic solutions.
+Defined the data requirements of the analytic solution.
+Worked on commercial data from desperate source systems, built data models
+and transformed data to provide added value in IT applications by streamlining
+processes, reducing cost , maximizing profits & rolling out business solutions
+that met one of the.
+
+EDUCATION
+PhD in Computational Chemistry - 2010(Vanderbilt University)
+
+SKILLS
+Software Development, Data Analysis, Research, Matlab, C++, Python, R.
+
+2
+
+

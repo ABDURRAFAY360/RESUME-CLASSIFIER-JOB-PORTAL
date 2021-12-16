@@ -1,0 +1,74 @@
+ROBERT SMITH
+Automation Test Engineer I
+info@qwikresume.com | LinkedIn Profile | Qwikresume.com
+
+Experienced in SQA (Software Quality Assurance) including Manual a,nd Automated
+testing with tools such as Selenium RC/WebDriver/IDE/Grid. Expertise in writing the
+test cases in java. Involved in various stages of Software Development Life Cycle
+(SDLC) implementing Waterfall, V-Model, and Agile, Iteration, Scrum methodologies.
+
+EXPERIENCE
+Automation Test Engineer I
+Fidelity Investments - JANUARY 2016 – 2019
+ Analyzed business requirements, system requirements, and data
+mapping requirement specifications interacting with a client,
+developers and QA team.
+ Created and implemented Test Plan and Test Strategy Document
+outlining the scope, objectives, timeline, and focus of software testing
+effort for functional, regression, user acceptance and stress testing.
+ Involved in analyzing system specifications, design, development,
+and execution of test plans and test cases for Manual and Automated
+testing.
+ Responsible for following the Acceptance Test Driven Development
+ATDD Process.
+ Analyzing, estimating and sizing the User Stories which will help
+Product Owners to prioritize the Story Cards.
+ Developing the software solution and writing code using Pair
+Programming and Test Driven Development TDD process.
+ Involved in Testing Agile Development Environment using TDD and
+ATDD approach.
+
+Automation Test Engineer
+
+THE GRANGE MUTUAL CASUALTY GROUP - 2012 – 2016
+
+
+
+
+
+
+
+
+Working in agile project environment including stand-ups, backlog,
+estimation, iteration planning, and retro meetings.
+Using ATDD approach for automation development of functional and
+regression testing.
+Developing functional/regression test scripts utilizing Gherkin,
+Cucumber, Ruby and Watir framework for web application reaching
+thousands of agents throughout thirteen states.
+Developing component level integration test scripts using Gherkin,
+SpecFlow, NUnit, and C# framework for web services.
+Training Automation Engineers new to the field with little to no
+development experience.
+Coaching QA Test Analysts on creating Gherkin features and
+execution of ATDD scripts through Gherkin feature files.
+
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+
+
+Mentoring QA Testers, Test Analysts, and Automation Engineers on
+quality assurance methodologies.
+
+EDUCATION
+
+
+Bachelors in Electrical Engineering - (JNTU University)
+
+SKILLS
+Ruby, Cucumber, Automation testing, Manual testing, SQL, HP Quality Center, JIRA,
+quick test professional, VBScript, core java, selenium.
+
+2
+
+

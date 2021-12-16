@@ -1,0 +1,96 @@
+MUHAMMAD MUSTAFA ALI USMANI
+A passionate problem solver inclined towards Data and Software Engineering
+[ mustafaausmani@gmail.com Ó 0316-2270547 ¯ linkedin.com/in/mma-usmani/
+PROJECTS AT SKYNNERS
+• Website for Kashish Music
+Developed the front end of the website using Angular with
+functionalities like music player using HowlerJs
+• POS ManagementWebsite
+Developed the front end of the website using Angular and implemented
+back end functionalities like product unit conversion
+and invoice generation download
+• Supplier App for Nature Pure
+Developed React Native application for drivers to managing
+deliveries , also worked in R/D for Geo tracking and oine
+data persistence
+ACADEMIC PROJECT
+• Togepi- Text Summarization (in process)
+Developing a deep neural model for text summarization using
+bidirectional LSTM on NewsRoom data set
+• Credit Card Fraud Detection
+Developed a deep neural model using binary classication for
+detection of a credit card fraud
+• Inventory Management System with Data Analysis Dashboard
+Worked as a full stack developer (MEAN) to create this website,
+dashboard was made using R and R shiny
+• Algorism-A Dynamic ProgrammingWebsite
+Worked as a full stack developer (MEAN) to create this website,
+Visualizations of Algorithms were shown using R , Python
+and R shiny
+• Text Predictor
+Developed a R Shiny application for predicting the next possible
+text
+• Corona Assistant
+Developed a React Native Application used for locating Hospitals
+and centers in the vicinity and giving updates regarding
+local and global stats
+• Into The Void
+Developed a 3D game on unity using C#
+COURSES
+• Data Science Specialization - Johns Hopkins University
+• Presidential Initiative for Articial Intelligence Computing (PIAIC)
+( Second Quarter)
+• Deep Learning Specialization – deeplearning.ai
+• Sequences, Time Series and Prediction – deeplearning.ai
+• Python for Everybody Specialization - University of Michigan
+• SQL for Data Science-University of California, Davis
+• AI for Medical Diagnosis– deeplearning.ai
+CO-CURRICULAR ACTIVITIES
+• General Secretary - Think N Create Society (2020-2021)
+• Guest Relation Executive - ACM-Dev Day (2021)
+• Developer -Google Developer Student Clubs (2019-2020)
+OBJECTIVE
+Innovative Computer Science student and Software
+Engineer seeking to utilize and improve skill set in
+the elds of Data Science, Deep Learning, Application/
+Web Development.
+EDUCATION
+Pursuing BS in Computer Science
+National University of Computer and Emerging Sciences
+(FAST)
+3.02/4.0 CGPA
+ 2018 - 2022 ½ Karachi,Pakistan
+Dean’s List : 4th & 5th Semester
+Intermediate (Pre-Engineering)
+Aga Khan Higher Secondary School
+77.37 %
+ 2016 – 2018 ½ Karachi,Pakistan
+O Levels
+Beacon House School System
+7 As and 1A*
+ 2005 - 2016 ½ Karachi,Pakistan
+SKILLS
+• Programming Languages:
+C++, Python(Tensor ow Keras) , R , JavaScript,
+TypeScript
+• Data-Analytics Tools:
+Python - Pandas, Scikit-Learn, MatPlotLib, Seaborn
+,R- ggplot2 Lattice, MS Excel
+• Framework:
+React Native, Angular, Node.Js
+• Databases:
+MongoDb, MySQl , SQLite
+• Technologies:
+Git, GitHub, JIRA, Bitrix24, JSON, Shell, Postman
+WORK EXPERIENCE
+• Software Engineering Intern at Skynners (Pvt.)
+ltd. (December 2020- March 2021)
+-Developed software applications on React Native
+and Angular JS using PHP APIs and SQL
+database based on analyzed requirements and
+understanding of industry technical standards
+• Teacher Assistant (Parallel and Distributed Computation)
+at FAST-NUCES (February 2021-May
+2021)
+-Assess student assignments,quizzes and projects
+to check quality and completeness for grading.

@@ -1,0 +1,50 @@
+CO-CURRICULAR ACTIVITIES:
+Teacher’s Assistant
+Assessed student’s assignment and programming tasks for Parallel computing. Assisted students with their academic queries.
+AWARDS:
+Dean’s List of Honours in 2nd ,4th and 5th Semester of BSCS
+anasbinwaquar@yahoo.com
+Karachi, Pakistan
+linkedin.com/in/anas-bin-waquar-171ab51b2/
++923061633994
+Anas Bin Waqar
+A Passionate Learner
+A dedicated undergraduate student enthusiastic about computer science. A passionate learner, looking for opportunities to solve challenging problems of future.
+EDUCATION:
+Bachelor of Science in Computer Science
+National University of Computer and Emerging Sciences
+08/2018 – Present (Expected: 2022) CGPA: 3.49/4.0
+Intermediate
+D.A Degree College for Men
+09/2016 – 05/2018 Marks: 847/1100
+Matriculation
+Happy Home School, Karachi
+08/2003 – 05/2016 Marks: 697/850
+TECHNICAL SKILLS:
+Programming Languages:
+➢ C
+➢ C++
+➢ Python
+➢ JavaScript
+➢ PHP
+Mark up Languages
+➢ HTML
+➢ CSS
+➢ Bootstrap
+Database Management System
+➢ MySQL
+Frameworks
+➢ Laravel
+➢ Selenium
+INTERESTS:
+➢ Technology
+➢ Video Games
+➢ Travelling
+➢ Coding
+➢ Astronomy
+PROJECTS:
+Web Scrapper: Scrapped buy/sell orders and extracted past sales from graphs using Python, BeautifulSoup4 and Selenium Web driver.
+Choose Your Closet: An E-commerce clothing store for buying/selling and renting of clothes, containing three portals namely admin, user and seller portal using HTML, PHP, CSS, JavaScript, and Bootstrap.
+Thread VS Processes: A program which demonstrated the processing difference between using Threads and Processes on different sorting algorithms; Using C++ and Linux.
+Student-Teacher Portal: A management system made using C++ Programming Language, to mimic our institution’s management portal.
+Catering Management System: A console application made by using C Programming Language, for small caterers.

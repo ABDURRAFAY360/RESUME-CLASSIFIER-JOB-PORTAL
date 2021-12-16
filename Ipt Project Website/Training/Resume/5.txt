@@ -1,0 +1,67 @@
+Furqan Ahmed
+A Passionate Undergraduate Student
+A Computer Science Student seeking opportunities in an organization to utilize his skills and knowledge. A skilled individual who tends to
+solve logical problems easily. A creative thinker who believes to provide all possible solution to get the job done efficiently.
+furqanahmedzaidi@gmail.com 03312830062 Karachi, Pakistan linkedin.com/in/furqanahmed--
+EDUCATION
+Bachelors Degree in Computer Science
+Nation University of Computer and Emerging Science
+(NUCES)
+08/2018 - 08/2022, CGPA: 3.30
+College, Pre-Engineering
+Govt Degree College Stadium Road SRE MAJEED, Karachi
+08/2016 - 05/2018,
+Matriculation
+Fazaia Inter College Malir, Karachi
+04/2007 - 05/2015,
+PROJECTS
+Ahmed's Foundation (10/2020 - 12/2020)
+A Dynamic Website developed using HTML, CSS, Bootstrap, JavaScript, PHP,
+Jquery using Laravel Framework.
+It is a Donation website having 3 different types of users Admin, Donor, and
+Recipient.
+It consists of 4 types of donation; Blood Donation, Organ Donation, Money Donation,
+Item & Supplies Donation.
+The project also has a feature where the program itself determines the neediest
+recipient whom donation should be given.
+Fashion Store (10/2020 - 10/2020)
+A Static website developed using HTML, CSS, Bootstrap, and JavaScript.
+The website is online clothes and accessories selling store
+The buyers can also give ratings and comment on a certain product or ask a question
+through the FAQ page.
+Word Guru (12/2020 - 12/2020)
+A console Application made using C++ Programming Language. Openmp directives
+are used to achieved parallelism in order to find all the anagram of a given word
+Anagram Finder (11/2019 - 12/2019)
+A console-based Game made using C++ Programming Language.
+The game consists of 3 difficulties Easy, Difficult, and Nightmare.
+The most common objective of all difficulties is to provide all required anagrams of
+the given level word to proceed to the next level.
+Student-Teacher Portal (04/2019 - 05/2019)
+A management system console application made using C++ language, inspired by
+our university portal flex student.
+SKILLS
+MySQL Laravel PHP Bootstrap
+WordPress C C++ Python
+Leadership Adobe Photoshop
+Adobe Illustrator Adobe Premiere Pro
+ACHIEVEMENTS
+Teacher Assistant (02/2021 - 06/2021)
+Working as teacher assistant in Theory of Automata where
+I have to make assignments for the student and solve any
+queries the student may have regarding the subject
+Dean List of honors
+Achieved dean list in 4th,5th semester
+Student of the Month
+Achieved Certificate from Adam Jee Coaching Center for
+obtaining highest marks in monthly exams
+SOCIETY WORK
+Association for Computing Machinery (ACM)
+(10/2020 - 12/2020)
+Appointed as a Deputy Designer. Worked on creating media
+posts and shield designing
+Think n Create (TNC) (10/2020 - 12/2020)
+Volunteered as a member in Media And Promotion society
+INTERESTS
+Sketching Gaming Graphic Designing
+Volleyball Hockey Strategy Games

@@ -1,0 +1,44 @@
+TASHIK MOIN
+COMPUTER SCIENTIST | TRAINER
+linkedin.com/in/tashik-moin-sheikh-08872116b/
+github.com/TashikMoin23
+Phone
++92 3000212027
+Email
+tashikmoinsheikh@gmail.com
+Objective Prioritizing product and customer requirements, defining the product vision, and working closely with the IT and support departments to ensure revenue and customer satisfaction goals are met.
+Skills
+• Version Controlling with Git and GitHub.
+• Linux, Docker and Kubernetes.
+• Cloud Computing with Microsoft Azure, AWS and Oracle.
+• Programming Languages (C, C++, C#, JavaScript, and Python).
+• Databases (MySQL, MSSQL, Oracle DB, MongoDB).
+• Frameworks and Libraries (.NET Core, NodeJS, ReactJS, ExpressJS, Blazor, OpenMP, MPI, NumPy, PyTorch, TensorFlow, Keras, and Pandas).
+Certifications
+• Microsoft Azure Architect Technologies, AZ-303, Microsoft.
+• Programming in C#, 70-483, Microsoft.
+• Developing ASP.NET MVC Web Applications, 70-486, Microsoft.
+• Word 2019 Associate, MO-100, Microsoft.
+• Software Development Fundamentals,
+98-361, Microsoft.
+• Azure Fundamentals, AZ-900, Microsoft.
+• Cloud Infrastructure Developer Associate 2020, 1Z0-1084, Oracle.
+• Cloud Infrastructure Cloud Operations Associate 2019, 1Z0-1067, Oracle.
+• Cloud Infrastructure Foundation Associate 2020, 1Z0-1085, Oracle.
+Education
+Bachelors: Computer Science – 2018-Present, CGPA: 3.40 NUCES FAST, Karachi.
+Intermediate: Pre-engineering – 2018, Grade: A Govt. Dehli College, Karachi.
+Matriculation: Pre-engineering – 2016, Grade: A+ Blue Horizon School, Karachi.
+Experience
+• Cloud Analyst – 2017-Present Plugcloud INC, San Mateo, California, United States.
+• DevOps Engineer – 2019-Present ETS Square, Karachi, Pakistan.
+• Teaching Assistant – 2021 NUCES FAST, Karachi.
+Achievements
+• Microsoft Certified Trainer (MCT) – 2020-Present
+• Microsoft Certified Solution Associate (MCSA)– 2021-Present
+• Microsoft Certified Professional (MCP)– 2021-Present
+• Microsoft Office Specialist (MOS)– 2020-Present
+• Microsoft Technology Associate (MTA) – 2020-Present
+• Gold Microsoft Learn Ambassador – 2020-Present
+• Microsoft Student Partner – 2019-2020
+• BSCS Deans list of honor – Spring 2019, Spring 2020, and Fall 2020

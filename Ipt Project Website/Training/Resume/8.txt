@@ -1,0 +1,76 @@
+Syed Muhammad Owais
+Web Developer
+Desired to work as a web developer where I can apply my education ,
+academic experience and utilize all my skills to accomplish industry
+goals and acts as a key player in creative and challenging environment.
+osyedmuhammad@gmail.com
++92 311 2341761
+Karachi, Pakistan
+github.com/SyedMuhammadOwais18
+EDUCATION
+BS-CS
+Undergraduate at Fast University (BS-CS)
+08/2018 - 08 / 2022, GPA : 3.15/4.0
+Pre-Engineering
+Adamjee Govt and Degree Science College
+2016 - 2018, Grade: A
+Matriculation (Computer Science)
+Karachi Public School
+2003 - 2016, Grade : A-1
+ACADEMIC PROJECTS
+Ecommerce application (11/2020 - 12/2020)
+It allow customers for online purchasing of electronic
+goods(Mobile, Laptop, PC's Component) which saves their time
+and energy.
+Stack: PHP , MySQL , HTML, CSS , JavaScript
+Dynamic Algorithm Generator (11/2020 - 12/2020)
+it allow users to select the particular dynamic algorithm and
+they can provide input to that algorithm to either get the
+answer directly or visually see the answer iteration by iteration
+which saves their time to manually run the algorithm.
+Stack: PHP , MySQL , HTML , CSS, JavaScript
+Virus Symptoms Identifier (05/2020 - 05/2020)
+Given a list o symptoms allow people to select the symptoms
+they have and recommend them whether to go for a test or
+not. If necessary symptoms found then recommend them the
+medical centers where they can go for a test.
+Stack : C++
+Hotel Management System (10/2019 - 11/2019)
+Allow a customers to reserve room according to their needs as
+their are different classes of room available.Resturant facility
+is also available for booked customers.Administrator can also
+handle booking online.It is quite faster than going to the hotel
+and making reservations.
+Stack : C
+TECHNICAL SKILLS
+Programming Languages : PHP ,
+JavaScript , C++ , C , C#, Python ,
+Node.js
+Mark Up Languages : Bootstrap , CSS ,
+HTML
+Framework : Laravel , jQuery , Express.js
+Database Management System :
+MongoDB , MySQL , phpMyAdmin ,
+Oracle
+Tools : Dev C++ , Visual Studio ,Visual
+Studio Code , PyCharm, Jupyter
+Notebook
+Project Management : Agile,Scrum
+EXTRA-CURRICULAR
+Coder's Cup hosted by National University of Computer and
+Emerging Sciences (NUCES)
+Participated in coding competition
+Developer's Day hosted by National University of Computer
+and Emerging Sciences (NUCES)
+Participated in speed programming
+LANGUAGES
+English
+Professional Working Proficiency
+Urdu
+Native or Bilingual Proficiency
+SOFT SKILLS
+Time Management : Have ability to manage time to achieve
+one's goal
+Leadership : Have ability to get most from one's ability
+Communication : Have ability to express myself
+Team Player: Have ability to follow and lead as situation dictate

@@ -1,0 +1,148 @@
+David Cole
+
+web developer
+843-388-2405 ∙ davidcole@davidcole.net ∙ www.davidcole.net
+
+Prof ile
+Results-oriented Web Application Developer and Online Business Developer with considerable training and
+enterprise experience in Web site design and layout and in all stages of design, coding, and testing of Web
+applications, and in the formation, planning, and implementation of online business ventures.
+Objective
+To obtain a position as a web application developer in a fun, fast paced, cutting edge environment that
+promotes teamwork and integrity and that fosters personal and professional development.
+Web Devel opm ent Summary
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Over ten years of professional software and Web application development experience
+Ruby, Ruby on Rails, object-oriented PHP, and Java, including and JSP and Servlets
+MVC, design patterns, Object-oriented Analysis and Design (OOAD), Web 2.0, SaaS, and Git
+HTML, XHTML, WML, and CSS
+JavaScript and AJAX, including Prototype and script.aculo.us libraries
+Web Services, SOAP, RESTful Services, Atom, and RSS
+HTTP, TCP/IP, FTP, SMTP, and POP3
+SQL, XML, MySQL, Postgresql, and Microsoft SQL Server
+Apache, Jakarta Tomcat, and WEBrick
+Red Hat Enterprise Linux, Fedora, and Microsoft Server
+Linux commands and tools, Perl, shell scripting with bash, and regular expressions
+Proven Search Engine Optimization and Marketing (SEO/SEM) experience
+Excellent written and verbal communication skills
+Online business development and strategy
+Adobe Photoshop and a solid understanding of good website design
+
+Education
+Marlboro College
+August 2002
+Master of Science, Internet Engineering
+As a capstone project, built a self-service website for the historical society in Townshend, VT using Java,
+Postgresql, Jakarta Tomcat, and Red Hat Linux.
+College of Charleston
+Bachelor of Arts, Music Theory and Composition
+
+June 1994
+
+Work Hist ory
+Web Application Developer
+www.rpwb.com
+Richardson, Patrick, Westbrook, & Brickman, LLC
+9/2003 - 10/2008
+ Built main law firm website and many informational and case-specific websites
+ Marketed websites through low-cost organic search engine optimization and link building, gaining first
+page ranking on Google for many highly-competitive, high-traffic, targeted keyword phrases
+ Built internal corporate Intranet, enabling interdepartmental collaboration
+ Was solely responsible for full life-cycle application development and maintenance
+ Used Photoshop, XHTML, and CSS for all website design
+ Used JavaScript and AJAX for all client-side scripting
+ Used PHP, Perl, and Java connected to SQL Server and MySQL for all server-side programming
+ Responsible for the administration of Web and FTP servers, including Apache on Red Hat Enterprise
+Linux and IIS on Windows Servers
+Code samples and references available upon request.
+
+1 of 2
+
+David Cole ∙ 843-388-2405 ∙ davidcole@davidcole.net
+
+David Cole
+
+web developer
+843-388-2405 ∙ davidcole@davidcole.net ∙ www.davidcole.net
+
+Work Hist ory (continued)
+
+Senior Web Developer
+www.motleyrice.com
+Motley Rice, LLC (formerly Ness Motley, P.A.)
+4/2001 - 9/2003
+Solely responsible for the development of Internet sites and Intranet/Extranet system. Duties included
+website design, programming, and optimization for search engine placement. Gained high ranking for many
+competitive keyword phrases, most notably a long-standing #2 ranking on Google for “mesothelioma”.
+Software Developer, Mead Westvaco
+Web Developer, Dr. Todd Christensen (online pharmacy)
+Software Developer, Blackbaud, Inc.
+Songwriter/Saxophonist, Skwzbxx, LLC
+
+1/2001 - 4/2001
+10/1999 - 5/2000
+1/1999 - 10/1999
+8/1995 - 1/1999
+
+Busin ess Devel opm ent
+Owner/Web Developer
+www.back2adam.com
+Back2Adam, Inc.
+9/2008 - Present
+With an emphasis on family history and individuals in history, Back2Adam will be the largest and most
+complete history resource on the Internet. In addition to being community run, user built, free, fun, and
+useful, automating much of the genealogical research process, it will encourage collaboration between
+users, providing comprehensive tools to do so, and will be available globally in many languages.
+ Developed using Ruby on Rails and MySQL on Linux.
+Owner/Web Developer
+Digital Charleston, LLC
+8/2007 - Present
+Provides custom application development.
+ Examples: www.wellspringcharleston.com, www.hendersonandassociates.net, www.majorandco.net,
+www.tuwbattleofthebands.com, www.ldsscripturemastery.net, www.publishyourkeyword.com
+Owner/Web Developer
+www.professionalagent.com
+Professional Agent, LLC
+5/2005 - Present
+Provides self-service, template-driven Web sites to real estate agents.
+ Oversee and implement company branding, including website design
+ Developed business application including registration form with integrated merchant services; agent
+websites including contact forms and regional MLS integration; and a user-friendly content
+management system
+ Provide website marketing for company and client websites
+ Developed using PHP and MySQL on Linux
+Cert ification s
+Red Hat Certified Technician for Red Hat Enterprise Linux 5, 2008
+Sun Certified Programmer for Java 2 Platform 1.4, 2004
+Prosoft Training’s Certified Internet Webmaster – Application Developer, 2001
+Member ships
+ Charleston Metro Chamber of Commerce
+ Charleston Young Professionals
+ South Carolina Small Business Chamber of Commerce
+
+Code samples and references available upon request.
+
+2 of 2
+
+ Charleston Java User Group
+ The Internet Society (ISOC)
+ American Mensa
+
+David Cole ∙ 843-388-2405 ∙ davidcole@davidcole.net
+
+

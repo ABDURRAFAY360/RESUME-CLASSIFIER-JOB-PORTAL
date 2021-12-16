@@ -1,0 +1,77 @@
+KANWAR RAM
+Interested in Software Development
+[ kanwarram18@gmail.com Ó 0306-1750963 R D-103 Parsa citi near Ankleseria Hospital Garden Karachi
+¯ linkedin.com/in/kanwar-ram-b88825208
+OBJECTIVE
+An enthusiastic, aspiring developer with interest
+in improving my logic building and problem
+solving skills, while making use of new innovative
+methods and working on ideas that challenge
+my grey matter.
+PROJECTS
+• Togepi- Text Summarization (in process)
+Developing a deep neural model for text summarization
+using bidirectional LSTM on News-
+Room data set
+• Algorism-A Dynamic ProgrammingWebsite
+Worked as a full stack developer (MEAN) to
+create this website, Visualizations of Algorithms
+were shown using R , Python and R
+shiny
+• POS ManagementWebsite
+Developed the front end of the website using
+Angular and implemented back end functionalities
+like product unit conversion and invoice
+generation download
+• Text Predictor
+Developed a R Shiny application for predicting
+the next possible text
+• Corona Assistant
+Developed a React Native Application used
+for locating Hospitals and centers in the vicinity
+and giving updates regarding local and
+global stats
+• Into The Void
+Developed a 3D game on unity using C#
+CERTIFICATION
+• Astera DataWarehouse 2021
+Bootcamp
+• Data Science Specialization 2020
+Johns Hopkins University {Coursera}
+• Robotics Fundamentals 2018
+By Beaconhouse STEM Foudation
+CO-CURRICULAR ACTIVITIES
+• Media and promotion Head 2020 - 2021
+of Think N Create Society
+Supervised the Media and Promotions team of
+the Think and Create Society to boost engagement
+and promote events
+• Teacher’s Assistant 2020
+Assisted the teacher in creating and grading
+quizzes and assignments
+EDUCATION
+Pursuing BS in Computer Science,
+3.74 CGPA
+National University of
+Computer and Emerging Sciences(FAST)
+ 2018 – 2022 ½ Karachi,Pakistan
+A Levels
+Beacon House P.E.C.H.S
+ 2016 – 2018 ½ Karachi,Pakistan
+O Levels
+Sst Public School
+ 2013 – 2016 ½ Rashidabad, Pakistan
+SKILLS
+• Programming Languages:
+C, C++, Python, R , JavaScript, Type-
+Script, HTML and CSS,
+• Framework:
+React Native, Angular, Node.Js, React
+• Databases:
+MongoDb, MySQl , SQLite
+• Technologies:
+Git, GitHub, JIRA, RestAPIs, JSON, Shell,
+Postman
+AWARDS
+• Dean’s List of Honors
+2nd, 3rd,4th,5th Semester of BSCS

@@ -1,0 +1,249 @@
+Sarah Collins, Web Developer
+SarahCollins@skatc.com
+http://www.skatc.com
+Victoria, British Columbia, Canada
+
+Objective
+To develop technologically interesting and cunningly designed applications for
+the web. I am particularly interested in user interface and structured framework
+design, and enjoy having input on all aspects of a project as suits my diverse
+skill set.
+
+Education
+Bachelor of Computer Science, University of Victoria (2001)
+Sun Certified Java Programmer for the Java 2 Platform 1.4 (2004)
+
+Areas of Expertise
+Application architecture/design at the system, function and unit levels for
+Web-based application systems in multi-tier environments of over 200 users,
+multiple sites (30+) and 100+ screens, forms, and reports.
+Application programming for Web-enabled and client-server systems using
+ASP.NET (1.1/2.0), Active Server Pages, VBScript, Java J2EE, JSP, Servlets,
+JavaScript, PHP, Perl, C++, PL/SQL, SQL stored procedures, HTML and others in
+a variety of integrated development environments.
+Web and graphic design using Adobe Photoshop, Macromedia Flash, handcoded HTML and advanced CSS techniques. Design projects varied from
+corporate identity and professional web application interfaces, to public
+entertainment and e-commerce websites.
+Data modeling and database design, integration, deployment and
+administration using MS SQL Server (2000/2005) and MySQL. Databases
+ranged in size from simple to 200+ tables and covered data migration and
+conversion activities.
+
+Technical Skills
+Programming Languages
+
+
+.NET (VBScript/C#)
+
+
+
+Java EE / JSP
+
+
+
+HTML / CSS
+
+
+
+JavaScript/DHTML
+
+
+
+ASP/VBScript
+
+
+
+PHP
+
+
+
+Python
+
+
+
+CGI/Perl
+
+Tools
+
+
+Adobe Photoshop / Illustrator
+
+
+
+Visual Studio (2003, 2005)
+
+
+
+Eclipse SDK
+
+
+
+Macromedia Flash / Dreamweaver
+
+
+
+Microsoft Office
+
+
+
+Web Servers (Microsoft IIS, Apache)
+
+
+
+Database Servers (SQL Server, MySQL)
+
+Operating Systems
+
+
+Windows (XP, 2000, 2003, NT, 98/95)
+
+
+
+Linux (SuSE, Mandrake, Red Hat, Knoppix, Slackware)
+
+Work History
+Salus Systems - Web Developer (2003 - 2006)
+
+
+Developed and maintained professional data-driven web applications for
+hundreds of concurrent users
+
+
+
+Created a client-rich .NET 2.0 web framework for case management
+systems, incorporating asynchronous request handling (AJAX) and robust
+UI elements
+
+
+
+Worked with clients across Canada to tailor public web applications to
+their specific requirements
+
+
+
+Designed unique web interfaces for over 50 websites, using modern CSS
+techniques, Flash, and DHTML flair
+
+
+
+Managed projects independently from start to finish
+
+
+
+retailpeak.com, constructionjobstores.com, tritonlogging.com
+
+Freelance - Web Developer (2000 - 2003)
+
+
+Website design and programming for various clients
+
+
+
+Used Agile development methodology for maximum flexibility with
+changing client requirements
+
+
+
+fodreams.com, aemagic.com
+
+Assertive Technologies - Web Developer (2002 - 2003)
+
+
+Developed internal company web applications in PHP
+
+
+
+Designed imaginative and colourful websites with Photoshop
+
+
+
+bchosting.com, xxxhosting.com
+
+Internet PM - Corporate Web Designer (2001 - 2002)
+
+
+Worked with a team to maintain a network of websites
+
+
+
+Designed and formatted weekly corporate publications
+
+Project Experience
+Please see skatc.com for a full programming and design portfolio
+Workers' Advisers Office Online System
+Lead Developer
+Web-based worker safety case management application for use by the BC
+Ministry of Labour; based on ASP.NET 2.0, SQL Server 2005, and JavaScript
+technologies. Client-heavy architecture incorporates asynchronous JavaScript
+XML transfers (AJAX) and a suite of custom-developed .NET user controls.
+Integrates with Windows security and Microsoft Office tools to provide a
+seamless desktop application experience without need for local installation.
+Responsible for programming, interface design, and extensive data modelling to
+update a pre-existing application to modern database design and best practices.
+Jobstores Network of Websites
+Project Manager and Primary Developer
+
+A collection of 30+ job search and job matching websites for individual clients,
+running on one combined SQL Server 2000 database and shared ASP VBScript
+code base. Each one has a custom template including graphics, stylesheet,
+content and over 100 customized options. Extensive admin area allows for
+manual data control, while SQL Server and Windows services provide automatic
+administration for clients who wish it. Responsible for project management,
+system architecture design, programming, graphic design, data management,
+administration, and marketing.
+BC Employment Program Online System
+Interface Developer
+Employment case management system for use by WCG International Ltd.
+Developed in ASP.NET 2.0 and SQL Server 2005 database. Responsibilities
+included design of a skinnable CSS interface, and development of .NET user
+controls for inputting and displaying data. Focus was on accessibility and a
+smooth client application experience.
+Triumph Planning and Employment Services
+Lead Developer and Data Administrator
+Disability case management web application used throughout British Columbia;
+written in ASP.Net 1.1 on SQL Server 2000. Incorporates a robust billing system
+based on a complex set of changing business rules and case milestone
+requirements. Dozens of print-ready government reports and an ad-hoc
+reporting engine help manage statistics. Function-based security system with
+over 150 security settings provides custom access for a variety of user types.
+Custom .NET user controls and pages encapsulate application security and case
+management flow. Responsible for system design, programming, data
+maintenance and system administration.
+JobWave BC Online System
+Developer
+Web-based employment case management application used by hundreds of
+concurrent users all over the province. Provides complete end-to-end data
+capture and reporting, and secure synchronization with government database
+servers. Written in VBScript ASP and running on a SQL Server 2000 database.
+Responsible for programming new modules and performance tuning of existing
+ones.
+
+References
+R
+e
+f
+e
+r
+e
+n
+c
+e
+s
+a
+v
+a
+i
+l
+a
+b
+l
+e
+o
+n
+r
+e
+q
+u
+e
+
+

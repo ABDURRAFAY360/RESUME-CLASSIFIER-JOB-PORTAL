@@ -1,0 +1,84 @@
+Automation Test Engineer
+
+ROBERT SMITH
+
+Phone: (123) 456 78 99
+Email: info@qwikresume.com
+Website: www.qwikresume.com
+LinkedIn:
+linkedin.com/qwikresume
+Address: 1737 Marshville Road,
+Alabama.
+
+Objective
+About 7+ years of experience in Software Quality Assurance Testing, Manual Testing, Automated
+Testing in Web, Windows, Server-Client Applications and Databases/ETL in variety of Applications.
+
+Skills
+Software Quality Assurance, Database Management, Manual Testing, Automation.
+
+Work Experience
+Automation Test Engineer
+ABC Corporation ­ February 2013 – March 2014
+
+
+
+
+
+
+
+
+
+
+Analyzed Business Requirements, Functional Specs and designed the requirements in Quality
+Center.
+Responsible for the development and execution of test plans, test scenarios, test scripts
+Executed and maintained manual test scripts from Quality Center Involved in configuring test
+environment and test data Used Mercury quality center to track, analyze and document
+defects.
+Performed Integration testing, System testing, End-to- End, Adhoc and Regression testing.
+Wrote and executed SQL Statements to retrieve data from back-end.
+Performed cross-browsing testing to verify if the application provides accurate information in
+different (IE, Netscape, AOL) browsers.
+Developed Keyword Driven Automation Framework for testing the application Wrote re-usable
+functions in QTP for supporting regression test suite Established Database connection using
+QTP Objects and Queried the Database Updated functions and executed the regression tests
+using QTP.
+Used SSAS to provide Online Analytical processing and data mining functionalities for BI
+applications.
+
+Automation Test Engineer
+ABC Corporation ­ November 2011 – January 2013
+
+
+
+
+
+
+
+
+
+
+Responsibilities Developed, monitored and enforced release management processes and
+policies in support of cross-domain configuration integration, testing, completeness and
+consistency.
+Automation of functional testing framework for all modules using Selenium and web driver.
+Attend requirement meeting with Business Analysts/ Business Users.
+Design, Develop and maintain automation framework.
+Prepare Test Plan for manual testing for different releases that covers GUI Testing, Functional
+Testing, Integration Testing, Regression Testing, Interface Testing, End-to-End Testing, and
+User Acceptance Testing.
+Worked on Agile Methodology.
+Working Knowledge in Defect Tracking, Report generation and requirement tracking
+throughout the test life cycle using JIRA.
+
+© This Free Resume Template is the copyright of Qwikresume.com. Usage
+Guidelines
+
+Education
+Bachelor of Engineering in Engineering - (JNTU University)
+
+© This Free Resume Template is the copyright of Qwikresume.com. Usage
+Guidelines
+
+

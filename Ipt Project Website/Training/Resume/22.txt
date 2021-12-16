@@ -1,0 +1,101 @@
+Robert Smith
+Data Scientist Trainee
+PERSONAL STATEMENT
+To obtain a position as a Data Architect in a collaborative environment
+utilizing my creativity and technical skills. The position must demand a high
+degree of self-motivation and the ability to drive data-centric solutions for
+complex business problems. I most enjoy solving problems that require my
+data modeling, analytics, and solution architecture expertise.
+
+WORK EXPERIENCE
+Data Scientist Trainee
+ABC Corporation -
+
+March 2014 – April 2016
+
+CONTACT DETAILS
+1737 Marshville Road,
+Alabama
+(123)-456-7899
+info@qwikresume.com
+www.qwikresume.com
+
+SKILLS
+Data Architecture, Data
+Modeling, Big Data, SQL.
+
+LANGUAGES
+English (Native)
+French (Professional)
+Spanish (Professional)
+
+Responsibilities:
+ Business Opportunity Network Kinetix provides Business Assurance and
+Revenue solutions to mobile carriers, enabling non-intrusive access to
+live network traffic for immediate analysis, decisions, and action on
+revenue-impacting events.
+ Examples include Fraud Detection (International Revenue Sharing
+Fraud, Identity Fraud, SIM Box By-Pass Fraud), 911 Outage, Network
+Operations, and Customer Experience.
+ My Contributions Model complex mobile carrier problems through using
+statistical, algorithmic, mining, and visualization techniques.
+ Produce operable insights using supervised and unsupervised machine
+learning.
+ Integrate live data from multiple network protocols.
+ Create live data analytics applications that make data-driven decisions
+on each event as it enters the data pipeline based on rules discovered
+through machine learning.
+ Deployed on the HP Helion Public Cloud demonstrating a scalable cloud
+version of network data analytics application.
+
+Data Scientist
+ABC Corporation -
+
+2012 – 2014
+
+Responsibilities:
+ Worked on, multiple projects to leverage statistical learning/machine
+learning algorithms to automate Alternate Asset Servicing.
+ The automation helped NT to reduce errors and improve operational
+efficiency.
+ Further, developed BI reports that provided predictive analytics &
+Reporting with dashboards on analyst performance, client activity,
+future workload & anomalies based on data collected from discrete
+applications.
+ Defined Project Scope, project Charter & Business Case Prototype
+machine learning algorithm for POC (Proof Of Concept) Performed Data
+Cleaning, features scaling, features engineering, Developed predictive
+models for use in machine learning platform using the scikit-learn
+python framework Improved statistical models using learning curves,
+parameter curves, feature selection, and regularization.
+ Performed ad-hoc data analysis for customer insights using hive on
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+INTERESTS
+Climbing
+Snowboarding
+Cooking
+Reading
+
+REFERENCES
+Reference – 1 (Company
+Name)
+Reference – 2 (Company
+Name)
+
+Hadoop cluster Developed MapReduce pipeline for feature extraction
+Implemented SVM using gradient descent algorithm Performed Principal
+Component Analysis Fine-tuned low bias & High variance trade off
+Defined the technical requirements of the analytic solutions.
+ Defined the data requirements of the analytic solution.
+ Worked on commercial data from desperate source systems, built data
+models and transformed data to provide added value in IT applications
+by streamlining processes, reducing cost , maximizing profits & rolling
+out business solutions that met one of the.
+
+Education
+Bachelor's in Mathematics - (Sonoma State University)
+
+© This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines
+
+
