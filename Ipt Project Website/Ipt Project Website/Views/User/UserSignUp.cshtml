@@ -98,7 +98,12 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    <li>
+        @Html.ActionLink("Want to find candidates? Signup as a Employer", "EmployerSignup", "Employer")
+    </li>
+    <li>
+        @Html.ActionLink("Already have a employer account? Login", "EmployerLogin", "Employer")
+    </li>
 </div>
 
 @section Scripts {

@@ -10,6 +10,20 @@ namespace Ipt_Project_Website.Controllers
 {
     public class UserController : Controller
     {
+        public ActionResult logincheck()
+        {
+            if (Session["login"].ToString() == "0")
+            {
+                ViewBag.Message = "Please login first";
+                return RedirectToRoute("Userlogin");
+            }
+            else if(Session["login"].ToString()=="1" && Session["Employer"].ToString() != "0")
+            {
+                return RedirectToRoute("Userlogin");
+            }
+
+            return RedirectToRoute("Homepage");
+        }
         // GET: User
         [HttpGet]
         public ActionResult UserSignUp()
@@ -69,14 +83,24 @@ namespace Ipt_Project_Website.Controllers
                     if (u.Email == collection["email"] && u.Password== collection["password"])
                     {
                         Session["User"] = 1;
+                        Session["login"] = 1;
                         Session["User_ID"] = u.id;
-                        return View("View", u);
+                        Session["UserModel"] = u;
+                        return RedirectToRoute("Homepage");
                     }
                 }
             }
             ViewBag.Message = "unSuccessful";
             return View();
+        }
 
+        public ActionResult UserLogout()
+        {
+            Session["User"] = 0;
+            Session["login"] = 0;
+            Session["User_ID"] = 0;
+            Session["UserModel"] = 0;
+            return RedirectToRoute("Homepage");
         }
     }
 }
