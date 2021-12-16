@@ -40,7 +40,12 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    <li>
+        @Html.ActionLink("Want to find jobs? Login as a User", "UserLogin", "User")
+    </li>
+    <li>
+        @Html.ActionLink("Already have a user account? Login", "UserSignUp", "User")
+    </li>
 </div>
 
 @section Scripts {

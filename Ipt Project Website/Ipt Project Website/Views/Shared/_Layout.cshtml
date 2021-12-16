@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -18,23 +17,53 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @if ( Session["User"].ToString() == "1")
-            {
-                <h1>LOGGED</h1>
-            }
-            else
-            {
-                <h1>not logged in</h1>
-            }
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Job Portal", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Login", "UserLogin", "User")</li>
-                </ul>
+                @if (Session["login"].ToString() == "0")
+                {
+                    <ul class="nav navbar-nav">
+
+
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="@Url.Action("UserSignUp","User")"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="@Url.Action("UserLogin","User")"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                }
+
+                @*If the login is by user*@
+                else if (Session["login"].ToString() == "1" && Session["User"].ToString() != "0")
+                {
+
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Upload Resume", "ResumeUpload", "Resume")</li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="@Url.Action("UserLogout","User")"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                    </ul>
+                }
+
+                @*If the login is by Employer*@
+                else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+                {
+
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Add New Jobs", "CreateJob", "Employer")</li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="@Url.Action("EmployerLogout","Employer")"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                    </ul>
+                }
             </div>
         </div>
     </div>
@@ -50,4 +79,6 @@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
+
+
 </html>

@@ -18,6 +18,26 @@ namespace Ipt_Project_Website
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+            routes.MapRoute(
+            name: "Homepage",
+            url: "",
+            defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
+            routes.MapRoute(
+            name: "Userlogin",
+            url: "User/UserLogin",
+            defaults: new { controller = "User", action = "UserLogin", id = UrlParameter.Optional }
+            );
+            routes.MapRoute(
+            name: "Employerlogin",
+            url: "User/UserLogin",
+            defaults: new { controller = "Employer", action = "EmployerLogin", id = UrlParameter.Optional }
+            );
+            routes.MapRoute(
+            name: "Createjob",
+            url: "Employer/CreateJob",
+            defaults: new { controller = "Employer", action = "CreateJob", id = UrlParameter.Optional }
+            );
         }
     }
 }
