@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -63,6 +69,12 @@
     <Compile Include="EmployerSignUp.Designer.cs">
       <DependentUpon>EmployerSignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage.Designer.cs">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="EmployerLogin.resx">
@@ -70,6 +82,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EmployerSignUp.resx">
       <DependentUpon>EmployerSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage.resx">
+      <DependentUpon>Homepage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,6 +106,7 @@
     <None Include="DBModel.xss">
       <DependentUpon>DBModel.xsd</DependentUpon>
     </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
