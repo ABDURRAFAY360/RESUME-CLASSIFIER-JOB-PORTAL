@@ -23,6 +23,16 @@ namespace Ipt_Project_Website.Controllers
         [HttpGet]
         public ActionResult ResumeUpload()
         {
+            if (Session["login"].ToString() == "0")
+            {
+                ViewBag.Message = "Please login first";
+                return RedirectToRoute("Userlogin");
+            }
+            else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            {
+                ViewBag.Message = "Please login first";
+                return RedirectToRoute("Userlogin");
+            }
             return View();
         }
 

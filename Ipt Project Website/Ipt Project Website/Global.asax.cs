@@ -26,6 +26,7 @@ namespace Ipt_Project_Website
             Session["Model"] = 0;
             Session["UserModel"] = 0;
             Session["EmployerModel"] = 0;
+            Session["Employer"] = 0;
         }
     }
 }
