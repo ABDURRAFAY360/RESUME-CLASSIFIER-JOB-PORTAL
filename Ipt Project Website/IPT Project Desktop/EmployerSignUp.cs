@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace IPT_Project_Desktop
 {
-    public partial class Form1 : Form
+    public partial class EmployerSignUp : Form
     {
-        public Form1()
+        public EmployerSignUp()
         {
             InitializeComponent();
+        }
+
+        private void SignUpButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -46,14 +46,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="DBModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBModel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EmployerLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="EmployerLogin.Designer.cs">
+      <DependentUpon>EmployerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployerSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployerSignUp.Designer.cs">
+      <DependentUpon>EmployerSignUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EmployerLogin.resx">
+      <DependentUpon>EmployerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployerSignUp.resx">
+      <DependentUpon>EmployerSignUp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +80,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="DBModel.xsc">
+      <DependentUpon>DBModel.xsd</DependentUpon>
+    </None>
+    <None Include="DBModel.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBModel.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBModel.xss">
+      <DependentUpon>DBModel.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
