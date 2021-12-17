@@ -45,7 +45,9 @@
     <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -62,6 +64,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdoEntity.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdoEntity.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AdoEntity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdoEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AdoEntity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdoEntity.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer.cs">
+      <DependentUpon>AdoEntity.tt</DependentUpon>
+    </Compile>
     <Compile Include="EmployerLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,8 +100,20 @@
     <Compile Include="Homepage.Designer.cs">
       <DependentUpon>Homepage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Job_applicant.cs">
+      <DependentUpon>AdoEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Job_post.cs">
+      <DependentUpon>AdoEntity.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resume.cs">
+      <DependentUpon>AdoEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>AdoEntity.tt</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="EmployerLogin.resx">
       <DependentUpon>EmployerLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +132,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EntityDeploy Include="AdoEntity.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AdoEntity.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="AdoEntity.edmx.diagram">
+      <DependentUpon>AdoEntity.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -115,6 +154,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdoEntity.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AdoEntity.edmx</DependentUpon>
+      <LastGenOutput>AdoEntity.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="AdoEntity.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AdoEntity.edmx</DependentUpon>
+      <LastGenOutput>AdoEntity.cs</LastGenOutput>
+    </Content>
     <Content Include="Database.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

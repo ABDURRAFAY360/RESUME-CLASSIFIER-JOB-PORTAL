@@ -27,6 +27,7 @@ namespace IPT_Project_Desktop
         {
             //Regex check = new Regex(@"");
             //Match match = check.Match();
+
             Regex check;
             Match match; 
 
@@ -93,7 +94,9 @@ namespace IPT_Project_Desktop
                 MessageBox.Show("Please complete the form in order to Sign Up.");
             }
 
-            DbModel dbModel = new DbModel();
+            DatabaseModel dbModel = new DatabaseModel();
+
+            //DbModel dbModel = new DbModel();
 
             //var EmailAlreadyExists = dbModel.Employers.Any(x => x.Email == email);
             //if (EmailAlreadyExists)
@@ -121,11 +124,22 @@ namespace IPT_Project_Desktop
             employer.Company_name = companyName;
             employer.Company_contact_number = companyContactNumber;
 
-            using (dbModel = new DbModel())
+            using (dbModel = new DatabaseModel())
             {
                 dbModel.Employers.Add(employer);
                 dbModel.SaveChanges();
             }
+
+            //string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C: \\Users\\umaim\\Desktop\\Workspaces\\IPT\\Project_IPT_New\\Ipt Project Website\\Ipt Project Website\\App_Data\\Database.mdf\";Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework";
+            //SqlConnection connection = new SqlConnection(connectionString);
+            
+            //if(connection.State == ConnectionState.Open)
+            //{
+            //    string query = "insert into Employer(First_name, Last_name, Email, Password, Current_education, Employment_status, Phone_number, City, Country, Company_name, Company_contact_number) values('" + firstName + "','" + lastName + "','" + email + "','" + password + "','" + currentEducation + "','" + employmentStatus + "','" + phoneNumber + "','" + city + "','" + country + "','" + companyName + "','" + companyContactNumber + "')";
+            //    SqlCommand command = new SqlCommand(query, connection);
+            //    MessageBox.Show("Sign Up successful!");
+            //}
+
             MessageBox.Show("Sign Up successful!");
 
             this.Hide();
