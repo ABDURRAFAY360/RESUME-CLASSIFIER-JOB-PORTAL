@@ -17,6 +17,11 @@ namespace IPT_Project_Desktop
             InitializeComponent();
         }
 
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void BackButton_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -25,9 +30,5 @@ namespace IPT_Project_Desktop
             this.Close();
         }
 
-        private void LoginButton_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

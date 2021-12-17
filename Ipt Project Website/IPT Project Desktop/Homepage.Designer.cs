@@ -75,7 +75,7 @@ namespace IPT_Project_Desktop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(674, 289);
+            this.ClientSize = new System.Drawing.Size(681, 289);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.SignUpButton);
             this.Controls.Add(this.label1);
