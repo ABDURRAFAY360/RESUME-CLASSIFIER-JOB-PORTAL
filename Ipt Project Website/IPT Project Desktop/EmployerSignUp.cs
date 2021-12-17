@@ -21,5 +21,13 @@ namespace IPT_Project_Desktop
         {
 
         }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Homepage homepage = new Homepage();
+            homepage.ShowDialog();
+            this.Close();
+        }
     }
 }

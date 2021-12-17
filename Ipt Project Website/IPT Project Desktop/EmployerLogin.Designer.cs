@@ -98,6 +98,7 @@ namespace IPT_Project_Desktop
             this.LoginButton.TabIndex = 24;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseVisualStyleBackColor = true;
+            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
             // BackButton
             // 
@@ -109,6 +110,7 @@ namespace IPT_Project_Desktop
             this.BackButton.TabIndex = 25;
             this.BackButton.Text = "Back";
             this.BackButton.UseVisualStyleBackColor = true;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
             // 
             // EmployerLogin
             // 

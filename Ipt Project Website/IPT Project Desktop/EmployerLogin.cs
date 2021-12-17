@@ -16,5 +16,18 @@ namespace IPT_Project_Desktop
         {
             InitializeComponent();
         }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Homepage homepage = new Homepage();
+            homepage.ShowDialog();
+            this.Close();
+        }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

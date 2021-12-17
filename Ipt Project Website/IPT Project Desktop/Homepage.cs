@@ -16,5 +16,21 @@ namespace IPT_Project_Desktop
         {
             InitializeComponent();
         }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EmployerLogin employerLogin = new EmployerLogin();
+            employerLogin.ShowDialog();
+            this.Close();
+        }
+
+        private void SignUpButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EmployerSignUp employerSignUp = new EmployerSignUp();
+            employerSignUp.ShowDialog();
+            this.Close();
+        }
     }
 }

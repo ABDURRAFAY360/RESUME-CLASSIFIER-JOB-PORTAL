@@ -56,6 +56,7 @@ namespace IPT_Project_Desktop
             this.SignUpButton.TabIndex = 26;
             this.SignUpButton.Text = "Sign Up";
             this.SignUpButton.UseVisualStyleBackColor = false;
+            this.SignUpButton.Click += new System.EventHandler(this.SignUpButton_Click);
             // 
             // LoginButton
             // 
@@ -68,12 +69,13 @@ namespace IPT_Project_Desktop
             this.LoginButton.TabIndex = 27;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseVisualStyleBackColor = false;
+            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
             // Homepage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 289);
+            this.ClientSize = new System.Drawing.Size(674, 289);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.SignUpButton);
             this.Controls.Add(this.label1);
