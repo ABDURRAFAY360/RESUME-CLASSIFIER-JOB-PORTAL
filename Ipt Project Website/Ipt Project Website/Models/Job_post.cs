@@ -19,12 +19,13 @@ namespace Ipt_Project_Website.Models
     {
         public int Job_id { get; set; }
         [DisplayName("Job Description")]
+        [Required(ErrorMessage = "This Field is Required.")]
+        [StringLength(500)]
         public string Job_description { get; set; }
         [DisplayName("Job Designation")]
         [Required(ErrorMessage = "This Field is Required.")]
+        [StringLength(500)]
         public string Job_designation { get; set; }
         public int Employer_id { get; set; }
-        [DisplayName("Upload Job Description")]
-        public HttpPostedFileBase UploadFile { get; set; }
     }
 }

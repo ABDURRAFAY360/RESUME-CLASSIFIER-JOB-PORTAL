@@ -5,8 +5,6 @@ using System.Web;
 using System.Web.Mvc;
 using Ipt_Project_Website.Models;
 using System.Threading.Tasks;
-using System.Configuration;
-using System.IO;
 
 namespace Ipt_Project_Website.Controllers
 {
@@ -114,24 +112,20 @@ namespace Ipt_Project_Website.Controllers
         [HttpPost]
         public async Task<ActionResult> CreateJob(Job_post job)
         {
-            string FileName = System.IO.Path.GetFileNameWithoutExtension(job.UploadFile.FileName);
-            string FileExtension = System.IO.Path.GetExtension(job.UploadFile.FileName);
-            FileName = DateTime.Now.ToString("yyyyMMddss") + "-" + FileName.Trim() + FileExtension;
-            string UploadPath = ConfigurationManager.AppSettings["JobDescription"].ToString() + FileName;
-            job.UploadFile.SaveAs(UploadPath);
-            string text = System.IO.File.ReadAllText(UploadPath);
             DbModel dbmodel = new DbModel();
             Job_post post = new Job_post();
             Employer emp = Session["Employer"] as Employer;
-            post.Employer_id = 1;
-            post.Job_description = text;
-            post.Job_designation = job.Job_designation;
-            /*Response.Write(text);
-            Response.End();
-            */
-            dbmodel.Job_post.Add(post);
-            dbmodel.SaveChanges();
-          
+            job.Employer_id = emp.id;
+            
+            if (ModelState.IsValid)
+            {
+                using (dbmodel = new DbModel())
+                {
+                    dbmodel.Job_post.Add(job);
+                    dbmodel.SaveChanges();
+                }
+            }
+
 
             ModelState.Clear();
             ViewBag.SuccessMessage = "Registration Successful";
