@@ -237,3 +237,9 @@ C:\Users\umaim\Desktop\Workspaces\IPT\Project_IPT_New\Ipt Project Website\Ipt Pr
 C:\Users\umaim\Desktop\Workspaces\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\obj\Debug\Ipt Project Website.csproj.CopyComplete
 C:\Users\umaim\Desktop\Workspaces\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\obj\Debug\Ipt Project Website.dll
 C:\Users\umaim\Desktop\Workspaces\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\obj\Debug\Ipt Project Website.pdb
+C:\Users\umaim\Desktop\Workspaces\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll~Stashed changes
+C:\Users\umaim\Desktop\Workspaces\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\bin\roslyn\Microsoft.CodeAnalysis.dll~Stashed changes
+C:\Users\umaim\Desktop\Workspaces\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll~Stashed changes
+C:\Users\umaim\Desktop\Workspaces\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\bin\roslyn\System.Collections.Immutable.dll~Stashed changes
+C:\Users\umaim\Desktop\Workspaces\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\bin\roslyn\System.Reflection.Metadata.dll~Stashed changes
+C:\Users\umaim\Desktop\Workspaces\IPT\Project_IPT_New\Ipt Project Website\Ipt Project Website\bin\roslyn\VBCSCompiler.exe~Stashed changes
