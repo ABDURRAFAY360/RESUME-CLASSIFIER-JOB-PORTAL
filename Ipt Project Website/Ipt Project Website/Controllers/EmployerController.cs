@@ -103,7 +103,7 @@ namespace Ipt_Project_Website.Controllers
                 ViewBag.Message = "Please login first";
                 return RedirectToRoute("Employerlogin");
             }
-            else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            else if (Session["login"].ToString() == "1" && Session["User"].ToString() != "0")
             {
                 ViewBag.Message = "Please login first";
                 return RedirectToRoute("Employerlogin");
