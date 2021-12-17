@@ -11,6 +11,7 @@ using System.Configuration;
 using System.Text.RegularExpressions;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace IPT_Project_Desktop
 {
