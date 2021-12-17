@@ -95,18 +95,18 @@ namespace IPT_Project_Desktop
 
             DbModel dbModel = new DbModel();
 
-            var EmailAlreadyExists = dbModel.Employers.Any(x => x.Email == email);
-            if (EmailAlreadyExists)
-            {
-                MessageBox.Show("Email already exists! Please enter another email address.");
-                textBox3.Clear();
-            }
-            var PhoneNumberExists = dbModel.Employers.Any(x => x.Phone_number == phoneNumber);
-            if (PhoneNumberExists)
-            {
-                MessageBox.Show("Phone number already exists! Please enter another phone number.");
-                textBox7.Clear();
-            }
+            //var EmailAlreadyExists = dbModel.Employers.Any(x => x.Email == email);
+            //if (EmailAlreadyExists)
+            //{
+            //    MessageBox.Show("Email already exists! Please enter another email address.");
+            //    textBox3.Clear();
+            //}
+            //var PhoneNumberExists = dbModel.Employers.Any(x => x.Phone_number == phoneNumber);
+            //if (PhoneNumberExists)
+            //{
+            //    MessageBox.Show("Phone number already exists! Please enter another phone number.");
+            //    textBox7.Clear();
+            //}
 
             Employer employer = new Employer();
             employer.First_name = firstName;
