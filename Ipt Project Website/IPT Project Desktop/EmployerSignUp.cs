@@ -29,7 +29,8 @@ namespace IPT_Project_Desktop
             //Match match = check.Match();
 
             Regex check;
-            Match match; 
+            Match match;
+            bool validated = false;
 
             string firstName = textBox1.Text;
             check = new Regex(@"^[A-Za-z]+([\ A-Za-z]+)*");
@@ -96,39 +97,49 @@ namespace IPT_Project_Desktop
 
             DatabaseModel dbModel = new DatabaseModel();
 
-            //DbModel dbModel = new DbModel();
-
-            //var EmailAlreadyExists = dbModel.Employers.Any(x => x.Email == email);
-            //if (EmailAlreadyExists)
-            //{
-            //    MessageBox.Show("Email already exists! Please enter another email address.");
-            //    textBox3.Clear();
-            //}
-            //var PhoneNumberExists = dbModel.Employers.Any(x => x.Phone_number == phoneNumber);
-            //if (PhoneNumberExists)
-            //{
-            //    MessageBox.Show("Phone number already exists! Please enter another phone number.");
-            //    textBox7.Clear();
-            //}
-
-            Employer employer = new Employer();
-            employer.First_name = firstName;
-            employer.Last_name = lastName;
-            employer.Email = email;
-            employer.Password = password;
-            employer.Current_education = currentEducation;
-            employer.Employment_status = employmentStatus;
-            employer.Phone_number = phoneNumber;
-            employer.City = city;
-            employer.Country = country;
-            employer.Company_name = companyName;
-            employer.Company_contact_number = companyContactNumber;
-
-            using (dbModel = new DatabaseModel())
+            var EmailAlreadyExists = dbModel.Employers.Any(x => x.Email == email);
+            if (EmailAlreadyExists)
             {
-                dbModel.Employers.Add(employer);
-                dbModel.SaveChanges();
+                MessageBox.Show("Email already exists! Please enter another email address.");
+                textBox3.Clear();
             }
+            var PhoneNumberExists = dbModel.Employers.Any(x => x.Phone_number == phoneNumber);
+            if (PhoneNumberExists)
+            {
+                MessageBox.Show("Phone number already exists! Please enter another phone number.");
+                textBox7.Clear();
+            }
+
+            if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password) && !string.IsNullOrEmpty(currentEducation) && !string.IsNullOrEmpty(employmentStatus) && !string.IsNullOrEmpty(phoneNumber) && !string.IsNullOrEmpty(city) && !string.IsNullOrEmpty(country) && !string.IsNullOrEmpty(companyName) && !string.IsNullOrEmpty(companyContactNumber))
+            {
+                Employer employer = new Employer();
+                employer.First_name = firstName;
+                employer.Last_name = lastName;
+                employer.Email = email;
+                employer.Password = password;
+                employer.Current_education = currentEducation;
+                employer.Employment_status = employmentStatus;
+                employer.Phone_number = phoneNumber;
+                employer.City = city;
+                employer.Country = country;
+                employer.Company_name = companyName;
+                employer.Company_contact_number = companyContactNumber;
+
+                using (dbModel = new DatabaseModel())
+                {
+                    dbModel.Employers.Add(employer);
+                    dbModel.SaveChanges();
+                }
+
+                MessageBox.Show("Sign Up successful!");
+
+                this.Hide();
+                EmployerLogin login = new EmployerLogin();
+                login.ShowDialog();
+                this.Close();
+            }
+
+            
 
             //string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C: \\Users\\umaim\\Desktop\\Workspaces\\IPT\\Project_IPT_New\\Ipt Project Website\\Ipt Project Website\\App_Data\\Database.mdf\";Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework";
             //SqlConnection connection = new SqlConnection(connectionString);
@@ -140,12 +151,6 @@ namespace IPT_Project_Desktop
             //    MessageBox.Show("Sign Up successful!");
             //}
 
-            MessageBox.Show("Sign Up successful!");
-
-            this.Hide();
-            EmployerLogin login = new EmployerLogin();
-            login.ShowDialog();
-            this.Close();
         }
 
         private void BackButton_Click(object sender, EventArgs e)

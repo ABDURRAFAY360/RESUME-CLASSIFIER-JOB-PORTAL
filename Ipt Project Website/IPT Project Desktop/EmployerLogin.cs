@@ -19,7 +19,8 @@ namespace IPT_Project_Desktop
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-
+            string email;
+            string password;
         }
 
         private void BackButton_Click(object sender, EventArgs e)
