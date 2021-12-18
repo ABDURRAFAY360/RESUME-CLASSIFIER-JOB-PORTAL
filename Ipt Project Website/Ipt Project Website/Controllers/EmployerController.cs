@@ -7,6 +7,11 @@ using Ipt_Project_Website.Models;
 using System.Threading.Tasks;
 using System.Configuration;
 using System.IO;
+using iTextSharp.text.pdf;
+using iTextSharp.text.pdf.parser;
+using System.Net.Http;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace Ipt_Project_Website.Controllers
 {
@@ -131,10 +136,65 @@ namespace Ipt_Project_Website.Controllers
             */
             dbmodel.Job_post.Add(post);
             dbmodel.SaveChanges();
-          
+
 
             ModelState.Clear();
             ViewBag.SuccessMessage = "Registration Successful";
+            return View();
+        }
+        
+        [HttpGet]
+        public ActionResult ResumeSuggestion()
+        {
+            string JobDescriptionPath = ConfigurationManager.AppSettings["JobDescription"].ToString();
+            List<string> jd_name = new List<string>();
+            foreach (string txtName in Directory.GetFiles(JobDescriptionPath, "*.txt"))
+            {
+                jd_name.Add(System.IO.Path.GetFileNameWithoutExtension(txtName));
+            }
+            ViewBag.JobDescription = jd_name;
+            return View();
+        }
+        [HttpPost]
+        public async Task<ActionResult> ResumeSuggestion(Job_post job)
+        {
+            string UploadPath = ConfigurationManager.AppSettings["UploadFolder"].ToString();
+            string JobDescriptionPath = ConfigurationManager.AppSettings["JobDescription"].ToString();
+            string job_file_name = JobDescriptionPath + job.Job_description+".txt";
+            string job_description = System.IO.File.ReadAllText(job_file_name);
+            List<string> read_jd = new List<string>();
+            read_jd.Add(job_description);
+           List<string> read_resumes = new List<string>();
+            foreach (string txtName in Directory.GetFiles(UploadPath, "*.pdf"))
+            {
+                StringBuilder text = new StringBuilder();
+                using (PdfReader reader = new PdfReader(txtName))
+                {
+                    for (int i = 1; i <= reader.NumberOfPages; i++)
+                    {
+                        text.Append(PdfTextExtractor.GetTextFromPage(reader, i));
+                    }
+                    read_resumes.Add(text.ToString());
+                }
+            }
+        /*    Response.Write(read_resumes[0][0]);
+            Response.Write(read_resumes[1][0]);
+            Response.Write(read_resumes[2][0]);
+            Response.Write(read_resumes[3][0]);
+            Response.Write(read_resumes[4][0]);
+            Response.End();*/
+            var user = new Dictionary<string, List<string>>
+            {
+                { "resumes", read_resumes},
+                {"job_description",  read_jd}
+            };
+            var json = JsonConvert.SerializeObject(user);
+            var data = new StringContent(json, Encoding.UTF8, "application/json");
+            var client = new HttpClient();
+            var response = await client.PostAsync("https://rafay.ap.ngrok.io/JobSuggestion", data);
+            string result = await response.Content.ReadAsStringAsync();
+            Response.Write(result);
+            Response.End();
             return View();
         }
         public ActionResult EmployerLogout()

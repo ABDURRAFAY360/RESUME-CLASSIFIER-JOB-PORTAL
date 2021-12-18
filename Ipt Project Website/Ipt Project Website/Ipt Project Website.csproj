@@ -238,6 +238,7 @@
     <Content Include="Views\Employer\EmployerLogin.cshtml" />
     <Content Include="Views\Resume\ResumeUpload.cshtml" />
     <Content Include="Views\Employer\CreateJob.cshtml" />
+    <Content Include="Views\Employer\ResumeSuggestion.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

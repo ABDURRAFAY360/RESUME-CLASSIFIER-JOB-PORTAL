@@ -26,5 +26,7 @@ namespace Ipt_Project_Website.Models
         public int Employer_id { get; set; }
         [DisplayName("Upload Job Description")]
         public HttpPostedFileBase UploadFile { get; set; }
+       
+       
     }
 }

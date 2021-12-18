@@ -4,10 +4,14 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 from flask import Flask,jsonify,request,make_response,url_for,redirect
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 import requests, json
 import re
 import joblib
 import pickle
+
+vectorizer = TfidfVectorizer()
 
 app = Flask(__name__)
 
@@ -31,6 +35,16 @@ def cleanResume(resumeText):
     resumeText = lemmatizer.lemmatize(resumeText)
     return resumeText
 
+#This function will calulate the tf_idf of job description
+def job_description_tfidf_vector(job_description):
+    global vectorizer
+    query_vector = []
+    query_vector_res = []
+    job_description = cleanResume(job_description)
+    query_vector.append(job_description)
+    query_vector_res = vectorizer.transform(query_vector)
+    return  query_vector_res
+
 @app.route("/",methods=['POST'])
 def hello():
     resume = []
@@ -53,7 +67,24 @@ def hello():
             mimetype='application/json'
         )
     return response
-
+@app.route("/JobSuggestion", methods = ['POST'])
+def cosine_similarity_cal():
+    global vectorizer
+    resumes = request.json['resumes']
+    job_description = request.json['job_description']
+    
+    cosine_answers = []
+    X = vectorizer.fit(resumes)
+    doc_vector = vectorizer.transform(resumes)
+    query_vector_res = job_description_tfidf_vector(job_description[0])
+    cosine_answers.append(cosine_similarity(doc_vector, query_vector_res))
+    result = dict(enumerate(cosine_answers[0].flatten(), 1))
+    response = app.response_class(
+            response=json.dumps(result),
+            status=200,
+            mimetype='application/json'
+        )
+    return response
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=80)  # If address is in use, may need to terminate other sessions:
                # Runtime > Manage Sessions > Terminate Other Sessions
