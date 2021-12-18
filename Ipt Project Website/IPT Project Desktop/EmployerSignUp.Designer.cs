@@ -299,6 +299,7 @@ namespace IPT_Project_Desktop
             this.BackButton.TabIndex = 26;
             this.BackButton.Text = "Back";
             this.BackButton.UseVisualStyleBackColor = true;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
             // 
             // EmployerSignUp
             // 
