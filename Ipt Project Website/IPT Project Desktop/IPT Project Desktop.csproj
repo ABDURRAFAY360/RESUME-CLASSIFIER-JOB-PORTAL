@@ -106,6 +106,12 @@
     <Compile Include="Homepage.Designer.cs">
       <DependentUpon>Homepage.cs</DependentUpon>
     </Compile>
+    <Compile Include="JobPost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobPost.Designer.cs">
+      <DependentUpon>JobPost.cs</DependentUpon>
+    </Compile>
     <Compile Include="Job_applicant.cs">
       <DependentUpon>AdoEntity.tt</DependentUpon>
     </Compile>
@@ -131,6 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Homepage.resx">
       <DependentUpon>Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobPost.resx">
+      <DependentUpon>JobPost.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
