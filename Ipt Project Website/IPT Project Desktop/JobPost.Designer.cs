@@ -32,9 +32,9 @@ namespace IPT_Project_Desktop
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.JobDescriptionBox = new System.Windows.Forms.RichTextBox();
-            this.JobDesignationBox = new System.Windows.Forms.RichTextBox();
             this.BackButton = new System.Windows.Forms.Button();
             this.PostButton = new System.Windows.Forms.Button();
+            this.JobDesignationBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label4
@@ -69,16 +69,6 @@ namespace IPT_Project_Desktop
             this.JobDescriptionBox.TabIndex = 7;
             this.JobDescriptionBox.Text = "";
             // 
-            // JobDesignationBox
-            // 
-            this.JobDesignationBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JobDesignationBox.Location = new System.Drawing.Point(17, 66);
-            this.JobDesignationBox.Name = "JobDesignationBox";
-            this.JobDesignationBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.JobDesignationBox.Size = new System.Drawing.Size(771, 45);
-            this.JobDesignationBox.TabIndex = 8;
-            this.JobDesignationBox.Text = "";
-            // 
             // BackButton
             // 
             this.BackButton.BackColor = System.Drawing.Color.Lavender;
@@ -105,14 +95,68 @@ namespace IPT_Project_Desktop
             this.PostButton.UseVisualStyleBackColor = false;
             this.PostButton.Click += new System.EventHandler(this.PostButton_Click);
             // 
+            // JobDesignationBox
+            // 
+            this.JobDesignationBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JobDesignationBox.FormattingEnabled = true;
+            this.JobDesignationBox.Items.AddRange(new object[] {
+            "Java Developer",
+            "Testing",
+            "",
+            "DevOps Engineer",
+            "",
+            "Python Developer",
+            "",
+            "Web Designing",
+            "",
+            "HR",
+            "Hadoop",
+            "",
+            "Data Science",
+            "",
+            "Mechanical Engineer",
+            "",
+            "Sales",
+            "",
+            "Operations Manager",
+            "",
+            "ETL Developer",
+            "Blockchain",
+            "",
+            "Arts",
+            "",
+            "Database",
+            "",
+            "Health and fitness",
+            "Electrical Engineer",
+            "",
+            "PMO",
+            "",
+            "Business Analyst",
+            "",
+            "DotNet Developer",
+            "Automation Testing",
+            "",
+            "Network Security Engineer",
+            "",
+            "Civil Engineer",
+            "",
+            "SAP Developer",
+            "",
+            "Advocate"});
+            this.JobDesignationBox.Location = new System.Drawing.Point(17, 80);
+            this.JobDesignationBox.Name = "JobDesignationBox";
+            this.JobDesignationBox.Size = new System.Drawing.Size(771, 33);
+            this.JobDesignationBox.TabIndex = 30;
+            // 
             // JobPost
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 563);
+            this.Controls.Add(this.JobDesignationBox);
             this.Controls.Add(this.PostButton);
             this.Controls.Add(this.BackButton);
-            this.Controls.Add(this.JobDesignationBox);
             this.Controls.Add(this.JobDescriptionBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
@@ -128,8 +172,8 @@ namespace IPT_Project_Desktop
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox JobDescriptionBox;
-        private System.Windows.Forms.RichTextBox JobDesignationBox;
         private System.Windows.Forms.Button BackButton;
         private System.Windows.Forms.Button PostButton;
+        private System.Windows.Forms.ComboBox JobDesignationBox;
     }
 }

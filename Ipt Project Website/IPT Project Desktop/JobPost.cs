@@ -23,6 +23,7 @@ namespace IPT_Project_Desktop
         {
             employerID = eID;
             InitializeComponent();
+            JobDesignationBox.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void BackButton_Click(object sender, EventArgs e)
@@ -56,7 +57,7 @@ namespace IPT_Project_Desktop
                     dbModel.Job_post.Add(post);
                     dbModel.SaveChanges();
                     MessageBox.Show("Job Posted Successfully!");
-                    JobDesignationBox.Clear();
+                    JobDesignationBox.SelectedIndex = -1;
                     JobDescriptionBox.Clear();
                 }
             }          
