@@ -9,9 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
 using System.Text.RegularExpressions;
-using System.Data;
 using System.Data.SqlClient;
-using System.Configuration;
 using Ipt_Project_Website.Models;
 
 namespace IPT_Project_Desktop
@@ -30,7 +28,6 @@ namespace IPT_Project_Desktop
 
             Regex check;
             Match match;
-            bool validated = false;
 
             string firstName = textBox1.Text;
             check = new Regex(@"^[A-Za-z]+([\ A-Za-z]+)*");
