@@ -41,7 +41,10 @@ namespace IPT_Project_Desktop
 
         private void JobButton_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            JobPost jobPost = new JobPost(employerID);
+            jobPost.ShowDialog();
+            this.Close();
         }
 
         private void ViewButton_Click(object sender, EventArgs e)
@@ -51,7 +54,15 @@ namespace IPT_Project_Desktop
 
         private void LogoutButton_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Homepage homepage = new Homepage();
+            homepage.ShowDialog();
+            this.Close();
+        }
 
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

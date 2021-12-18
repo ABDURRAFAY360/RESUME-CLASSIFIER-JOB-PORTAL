@@ -32,6 +32,7 @@ namespace IPT_Project_Desktop
             this.label1 = new System.Windows.Forms.Label();
             this.SignUpButton = new System.Windows.Forms.Button();
             this.LoginButton = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -63,7 +64,7 @@ namespace IPT_Project_Desktop
             this.LoginButton.BackColor = System.Drawing.Color.Lavender;
             this.LoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginButton.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.LoginButton.Location = new System.Drawing.Point(205, 164);
+            this.LoginButton.Location = new System.Drawing.Point(205, 155);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(246, 38);
             this.LoginButton.TabIndex = 27;
@@ -71,11 +72,25 @@ namespace IPT_Project_Desktop
             this.LoginButton.UseVisualStyleBackColor = false;
             this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
+            // ExitButton
+            // 
+            this.ExitButton.BackColor = System.Drawing.Color.Lavender;
+            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitButton.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.ExitButton.Location = new System.Drawing.Point(205, 199);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(246, 38);
+            this.ExitButton.TabIndex = 28;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+            // 
             // Homepage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(681, 289);
+            this.ClientSize = new System.Drawing.Size(681, 257);
+            this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.SignUpButton);
             this.Controls.Add(this.label1);
@@ -91,5 +106,6 @@ namespace IPT_Project_Desktop
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button SignUpButton;
         private System.Windows.Forms.Button LoginButton;
+        private System.Windows.Forms.Button ExitButton;
     }
 }

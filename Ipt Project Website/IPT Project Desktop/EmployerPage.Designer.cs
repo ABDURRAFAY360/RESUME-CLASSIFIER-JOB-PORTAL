@@ -34,6 +34,7 @@ namespace IPT_Project_Desktop
             this.ViewButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.LogoutButton = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -99,12 +100,26 @@ namespace IPT_Project_Desktop
             this.LogoutButton.UseVisualStyleBackColor = false;
             this.LogoutButton.Click += new System.EventHandler(this.LogoutButton_Click);
             // 
+            // ExitButton
+            // 
+            this.ExitButton.BackColor = System.Drawing.Color.Lavender;
+            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitButton.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.ExitButton.Location = new System.Drawing.Point(192, 278);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(246, 38);
+            this.ExitButton.TabIndex = 31;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+            // 
             // EmployerPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(642, 296);
+            this.ClientSize = new System.Drawing.Size(642, 332);
+            this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.LogoutButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.ViewButton);
@@ -124,5 +139,6 @@ namespace IPT_Project_Desktop
         private System.Windows.Forms.Button ViewButton;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button LogoutButton;
+        private System.Windows.Forms.Button ExitButton;
     }
 }

@@ -32,5 +32,10 @@ namespace IPT_Project_Desktop
             employerSignUp.ShowDialog();
             this.Close();
         }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
