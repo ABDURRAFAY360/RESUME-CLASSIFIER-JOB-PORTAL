@@ -45,6 +45,9 @@
     <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
     </Reference>
@@ -126,6 +129,12 @@
     <Compile Include="User.cs">
       <DependentUpon>AdoEntity.tt</DependentUpon>
     </Compile>
+    <Compile Include="ViewApplicants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewApplicants.Designer.cs">
+      <DependentUpon>ViewApplicants.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="EmployerLogin.resx">
       <DependentUpon>EmployerLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +159,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ViewApplicants.resx">
+      <DependentUpon>ViewApplicants.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="AdoEntity.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>AdoEntity.Designer.cs</LastGenOutput>

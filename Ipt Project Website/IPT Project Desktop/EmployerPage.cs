@@ -49,7 +49,10 @@ namespace IPT_Project_Desktop
 
         private void ViewButton_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            ViewApplicants viewApplicants = new ViewApplicants(employerID);
+            viewApplicants.ShowDialog();
+            this.Close();
         }
 
         private void LogoutButton_Click(object sender, EventArgs e)
