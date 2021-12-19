@@ -17,20 +17,20 @@ namespace Ipt_Project_Website.Controllers
 {
     public class EmployerController : Controller
     {
-        //public ActionResult logincheck()
-        //{
-        //    if (Session["login"].ToString() == "0")
-        //    {
-        //        ViewBag.Message = "Please login first";
-        //        return RedirectToRoute("Employerlogin");
-        //    }
-        //    else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
-        //    {
-        //        return RedirectToRoute("Employerlogin");
-        //    }
+        public ActionResult logincheck()
+        {
+            if (Session["login"].ToString() == "0")
+            {
+                ViewBag.Message = "Please login first";
+                return RedirectToRoute("Employerlogin");
+            }
+            else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            {
+                return RedirectToRoute("Employerlogin");
+            }
 
-        //    return RedirectToRoute("Homepage");
-        //}
+            return RedirectToRoute("Homepage");
+        }
         [HttpGet]
         public ActionResult EmployerSignUp()
         {
@@ -264,8 +264,13 @@ namespace Ipt_Project_Website.Controllers
         }
         public ActionResult EmployerLogout()
         {
-            Session["login"] = 0;
-
+            Session["login"] = "0";
+            Session["User"] = 0;
+            Session["User_ID"] = 0;
+            Session["Employer_ID"] = 0;
+            Session["Model"] = 0;
+            Session["UserModel"] = 0;
+            Session["EmployerModel"] = 0;
             Session["Employer"] = 0;
             return RedirectToRoute("Homepage");
         }

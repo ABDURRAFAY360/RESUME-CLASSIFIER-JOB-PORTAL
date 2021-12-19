@@ -5,48 +5,27 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>ViewAppliedPlaces</h2>
+<h2>The places you have applied</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Job_id)
+            Job Designation
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Job_description)
+            Job Description
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Job_designation)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Employer_id)
-        </th>
-        <th></th>
     </tr>
 
-@foreach (var item in Model) {
+    @foreach (var item in ViewBag.Posts) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Job_id)
+            @item.Job_designation
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Job_description)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Job_designation)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Employer_id)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            @item.Job_description
         </td>
     </tr>
-}
+    }
 
 </table>

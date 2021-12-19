@@ -244,6 +244,7 @@
     <Content Include="Views\User\JobApply.cshtml" />
     <Content Include="Views\Employer\job_applicant.cshtml" />
     <Content Include="Views\Employer\applicant_view.cshtml" />
+    <Content Include="Views\User\ViewAppliedPlaces.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
