@@ -18,14 +18,17 @@
         <th>
             Job Description
         </th>
+        <th>
+            Apply
+        </th>
     </tr>
 
 @foreach (var item in ViewBag.JobList) {
 <tr>
     <td>
-        @foreach(var i in ViewBag.EmployerList)
+        @foreach (var i in ViewBag.EmployerList)
         {
-            if(i.id == item.Employer_id)
+            if (i.id == item.Employer_id)
             {
                 @i.Company_name
             }
@@ -36,6 +39,9 @@
     </td>
     <td>
         @item.Job_description
+    </td>
+    <td>
+        @Html.ActionLink("Apply Here", "job_apply", new { job_id = @item.Job_id })
     </td>
 </tr>
 }

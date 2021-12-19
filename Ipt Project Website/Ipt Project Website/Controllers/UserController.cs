@@ -105,6 +105,15 @@ namespace Ipt_Project_Website.Controllers
             //ViewBag.JobDescription = jd_name;
             List<Job_post> job_post = new List<Job_post>();
             List<Employer> employer = new List<Employer>();
+            if (Session["login"].ToString() == "0")
+            {
+                ViewBag.Message = "Please login first";
+                return RedirectToRoute("Userlogin");
+            }
+            else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            {
+                return RedirectToRoute("Userlogin");
+            }
             using (DbModel dbmodel = new DbModel())
             {
                 ViewBag.EmployerList = dbmodel.Employers.ToList();
@@ -113,12 +122,40 @@ namespace Ipt_Project_Website.Controllers
 
             return View();
         }
+
+        public ActionResult job_apply(int job_id)
+        {
+            DbModel dbmodel = new DbModel();
+            Job_applicant applicant = new Job_applicant();
+            List<Job_applicant> app = new List<Job_applicant>();
+            app = dbmodel.Job_applicant.ToList();
+            int max = 0;
+            foreach (Job_applicant job_applicant in app)
+            {
+                if (max < job_applicant.id)
+                {
+                    max = job_applicant.id;
+                }
+            }
+            max++;
+            applicant.id = max;
+            var emp  = Session["User"] as User;
+            applicant.job_id = job_id;
+            applicant.applicant_id = emp.id;
+            dbmodel.Job_applicant.Add(applicant);
+            dbmodel.SaveChanges();
+            return RedirectToRoute("JobApply");
+        }
         public ActionResult UserLogout()
         {
+            Session["login"] = "0";
             Session["User"] = 0;
-            Session["login"] = 0;
             Session["User_ID"] = 0;
+            Session["Employer_ID"] = 0;
+            Session["Model"] = 0;
             Session["UserModel"] = 0;
+            Session["EmployerModel"] = 0;
+            Session["Employer"] = 0;
             return RedirectToRoute("Homepage");
         }
     }
