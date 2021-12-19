@@ -288,28 +288,30 @@ namespace IPT_Project_Desktop
             // textBox5
             // 
             this.textBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.textBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.FormattingEnabled = true;
             this.textBox5.Items.AddRange(new object[] {
             "B.Sc",
             "M.Sc",
             "Ph.D",
             "M.Phil"});
-            this.textBox5.Location = new System.Drawing.Point(356, 230);
+            this.textBox5.Location = new System.Drawing.Point(356, 227);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(293, 21);
+            this.textBox5.Size = new System.Drawing.Size(293, 33);
             this.textBox5.TabIndex = 27;
             this.textBox5.SelectedIndexChanged += new System.EventHandler(this.textBox5_SelectedIndexChanged);
             // 
             // textBox6
             // 
+            this.textBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox6.FormattingEnabled = true;
             this.textBox6.Items.AddRange(new object[] {
             "Employed",
             "Unemployed"});
-            this.textBox6.Location = new System.Drawing.Point(358, 272);
+            this.textBox6.Location = new System.Drawing.Point(356, 265);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(293, 21);
+            this.textBox6.Size = new System.Drawing.Size(293, 33);
             this.textBox6.TabIndex = 28;
             // 
             // EmployerSignUp
