@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Ipt_Project_Website.Models.Job_applicant>
+
+@{
+    ViewBag.Title = "JobApply";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>JobApply</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Company Name
+        </th>
+        <th>
+            Job Designation
+        </th>
+        <th>
+            Job Description
+        </th>
+        <th>
+            Apply
+        </th>
+    </tr>
+
+@foreach (var item in ViewBag.JobList) {
+<tr>
+    @*@if (item.Job_description!= "-1Dontshow")
+    {*@
+        <td>
+            @foreach (var i in ViewBag.EmployerList)
+            {
+                if (i.id == item.Employer_id)
+                {
+                    @i.Company_name
+                }
+            }
+        </td>
+        <td>
+            @item.Job_designation
+        </td>
+        <td>
+            @item.Job_description
+        </td>
+        <td>
+            @Html.ActionLink("Apply Here", "job_apply", new { job_id = @item.Job_id })
+        </td>
+    @*}*@
+
+</tr>
+}
+
+</table>

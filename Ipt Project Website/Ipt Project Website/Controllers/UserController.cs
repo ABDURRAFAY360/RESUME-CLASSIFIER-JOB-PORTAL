@@ -102,17 +102,79 @@ namespace Ipt_Project_Website.Controllers
             ViewBag.Message = "unSuccessful";
             return View();
         }
-        [HttpGet]
         public ActionResult JobApply()
         {
-            string JobDescriptionPath = ConfigurationManager.AppSettings["JobDescription"].ToString();
-            List<string> jd_name = new List<string>();
-            foreach (string txtName in Directory.GetFiles(JobDescriptionPath, "*.txt"))
+            //string JobDescriptionPath = ConfigurationManager.AppSettings["JobDescription"].ToString();
+            //List<string> jd_name = new List<string>();
+            //foreach (string txtName in Directory.GetFiles(JobDescriptionPath, "*.txt"))
+            //{
+            //    jd_name.Add(System.IO.Path.GetFileNameWithoutExtension(txtName));
+            //}
+            //ViewBag.JobDescription = jd_name;
+            List<Job_post> job_post = new List<Job_post>();
+            List<Employer> employer = new List<Employer>();
+            if (Session["login"].ToString() == "0")
             {
-                jd_name.Add(System.IO.Path.GetFileNameWithoutExtension(txtName));
+                ViewBag.Message = "Please login first";
+                return RedirectToRoute("Userlogin");
             }
-            ViewBag.JobDescription = jd_name;
+            else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            {
+                return RedirectToRoute("Userlogin");
+            }
+            using (DbModel dbmodel = new DbModel())
+            {
+                ViewBag.EmployerList = dbmodel.Employers.ToList();
+                var post= dbmodel.Job_post.ToList();
+                var jobapplicant = dbmodel.Job_applicant.ToList();
+                var user = Session["User"] as User;
+                int check = 0;
+                List<Job_post> joblist = new List<Job_post>();
+                foreach(Job_post p in post)
+                {
+                    foreach(var app in jobapplicant)
+                    {
+                        if (app.applicant_id == user.id && app.job_id == p.Job_id)
+                        {
+                            check = -1;
+                            break;
+                        }
+                        check = 0;
+                    }
+                    if (check != -1)
+                    {
+                        joblist.Add(p);
+                        check = 0;
+                    }
+
+                }
+                ViewBag.JobList = joblist;
+            }
             return View();
+        }
+
+        public ActionResult job_apply(int job_id)
+        {
+            DbModel dbmodel = new DbModel();
+            Job_applicant applicant = new Job_applicant();
+            List<Job_applicant> app = new List<Job_applicant>();
+            app = dbmodel.Job_applicant.ToList();
+            int max = 0;
+            foreach (Job_applicant job_applicant in app)
+            {
+                if (max < job_applicant.id)
+                {
+                    max = job_applicant.id;
+                }
+            }
+            max++;
+            applicant.id = max;
+            var emp  = Session["User"] as User;
+            applicant.job_id = job_id;
+            applicant.applicant_id = emp.id;
+            dbmodel.Job_applicant.Add(applicant);
+            dbmodel.SaveChanges();
+            return RedirectToRoute("JobApply");
         }
         public ActionResult UserLogout()
         {
@@ -125,6 +187,27 @@ namespace Ipt_Project_Website.Controllers
             Session["EmployerModel"] = 0;
             Session["Employer"] = 0;
             return RedirectToRoute("Homepage");
+        }
+
+        public ActionResult ViewAppliedPlaces()
+        {
+            DbModel dbmodel = new DbModel();
+            List<Job_post> newposts= new List<Job_post>();
+            User user = Session["User"] as User;
+            var posts = dbmodel.Job_post.ToList();
+            var applicants = dbmodel.Job_applicant.ToList();
+            foreach(Job_post p in posts)
+            {
+                foreach(Job_applicant app in applicants)
+                {
+                    if(app.applicant_id == user.id && p.Job_id==app.job_id)
+                    {
+                        newposts.Add(p);
+                    }
+                }
+            }
+            ViewBag.Posts=newposts;
+            return View();
         }
     }
 }
