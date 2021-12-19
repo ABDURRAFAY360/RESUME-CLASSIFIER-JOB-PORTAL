@@ -47,7 +47,7 @@ namespace IPT_Project_Desktop
                 MessageBox.Show("Please complete the form in order to Post Job.");
             }
 
-            if (!string.IsNullOrEmpty(jobDesignation) || !string.IsNullOrEmpty(jobDescription))
+            if (!string.IsNullOrEmpty(jobDesignation) && !string.IsNullOrEmpty(jobDescription))
             {
                 post.Employer_id = employerID;
                 post.Job_designation = jobDesignation;
