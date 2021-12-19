@@ -38,6 +38,11 @@ namespace Ipt_Project_Website
             url: "Employer/CreateJob",
             defaults: new { controller = "Employer", action = "CreateJob", id = UrlParameter.Optional }
             );
+            routes.MapRoute(
+            name: "ResumeViewer",
+            url: "Employer/ResumeViewer",
+            defaults: new { controller = "Employer", action = "Resume_Viewer", id = UrlParameter.Optional }
+            );
         }
     }
 }
