@@ -207,6 +207,55 @@ namespace Ipt_Project_Website.Controllers
             ViewBag.Resumes = sortedDict;
             return View("SuggestedResume");
         }
+
+        public ActionResult job_applicant()
+        {
+            DbModel dbmodel = new DbModel();
+            List<Job_post> job_post = new List<Job_post>();
+            var new_post = dbmodel.Job_post.ToList();
+            var emp = Session["Employer"] as Employer;
+            foreach (var job in new_post)
+            {
+                if(job.Employer_id == emp.id)
+                {
+                    job_post.Add(job);
+                }
+            }
+            ViewBag.Jobs = job_post;
+            return View();
+        }
+
+        public ActionResult applicant_view(int job_id)
+        {
+            
+            DbModel dbmodel = new DbModel();
+            List<Job_applicant> job_post = new List<Job_applicant>();
+            List<Resume> new_resume = new List<Resume>();
+            var resume = dbmodel.Resumes.ToList();
+            var app = dbmodel.Job_applicant.ToList();
+            foreach (var job in app)
+            {
+                if(job.job_id == job_id)
+                {
+                    job_post.Add(job);
+                }
+            }
+            foreach (var job in job_post)
+            {
+                foreach (var new_r in resume)
+                {
+                    if (job.applicant_id == new_r.user_id)
+                    {
+                        new_resume.Add(new_r);
+                    }
+                }
+             
+            }
+            ViewBag.Resumes = new_resume;
+            return View();
+        }
+
+
         public FileResult Resume_Viewer(string Name)
         {
             

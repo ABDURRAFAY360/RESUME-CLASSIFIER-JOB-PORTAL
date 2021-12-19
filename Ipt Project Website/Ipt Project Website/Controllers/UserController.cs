@@ -94,6 +94,7 @@ namespace Ipt_Project_Website.Controllers
             ViewBag.Message = "unSuccessful";
             return View();
         }
+       
         public ActionResult JobApply()
         {
             //string JobDescriptionPath = ConfigurationManager.AppSettings["JobDescription"].ToString();

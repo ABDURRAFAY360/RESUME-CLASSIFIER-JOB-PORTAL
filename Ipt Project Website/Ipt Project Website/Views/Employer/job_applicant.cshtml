@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "job_applicant";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Applied Jobs</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Job ID
+        </th>
+        <th>
+            Job Designation
+        </th>
+        <th>
+            Job Description
+        </th>
+        <th>
+            Applicant
+        </th>
+    </tr>
+
+    @foreach (var item in ViewBag.Jobs)
+    {
+        <tr>
+           
+            <td>
+                @item.Job_id
+            </td>
+            <td>
+                @item.Job_designation
+            </td>
+            <td>
+                @item.Job_description
+            </td>
+            <td>
+                @Html.ActionLink("View Here", "applicant_view", new { job_id = @item.Job_id })
+            </td>
+        </tr>
+    }
+
+</table>
