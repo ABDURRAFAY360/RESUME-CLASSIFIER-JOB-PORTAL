@@ -128,7 +128,7 @@ namespace Ipt_Project_Website.Controllers
             DbModel dbmodel = new DbModel();
             Job_post post = new Job_post();
             Employer emp = Session["Employer"] as Employer;
-            post.Employer_id = 1;
+            post.Employer_id = emp.id;
             post.Job_description = text;
             post.Job_designation = job.Job_designation;
             /*Response.Write(text);
@@ -136,9 +136,6 @@ namespace Ipt_Project_Website.Controllers
             */
             dbmodel.Job_post.Add(post);
             dbmodel.SaveChanges();
-
-
-            ModelState.Clear();
             ViewBag.SuccessMessage = "Registration Successful";
             return View();
         }
@@ -164,9 +161,11 @@ namespace Ipt_Project_Website.Controllers
             string job_description = System.IO.File.ReadAllText(job_file_name);
             List<string> read_jd = new List<string>();
             read_jd.Add(job_description);
-           List<string> read_resumes = new List<string>();
+            List<string> read_resumes = new List<string>();
+            List<string> file_paths = new List<string>();
             foreach (string txtName in Directory.GetFiles(UploadPath, "*.pdf"))
             {
+                file_paths.Add(txtName);
                 StringBuilder text = new StringBuilder();
                 using (PdfReader reader = new PdfReader(txtName))
                 {
@@ -177,7 +176,8 @@ namespace Ipt_Project_Website.Controllers
                     read_resumes.Add(text.ToString());
                 }
             }
-        /*    Response.Write(read_resumes[0][0]);
+            
+        /*  Response.Write(read_resumes[0][0]);
             Response.Write(read_resumes[1][0]);
             Response.Write(read_resumes[2][0]);
             Response.Write(read_resumes[3][0]);
@@ -192,10 +192,26 @@ namespace Ipt_Project_Website.Controllers
             var data = new StringContent(json, Encoding.UTF8, "application/json");
             var client = new HttpClient();
             var response = await client.PostAsync("https://rafay.ap.ngrok.io/JobSuggestion", data);
-            string result = await response.Content.ReadAsStringAsync();
-            Response.Write(result);
-            Response.End();
-            return View();
+            string x = await response.Content.ReadAsStringAsync();
+            Dictionary<string, double> suggestion_dic = new Dictionary<string, double>();
+            Dictionary<string, string> htmlAttributes =
+            JsonConvert.DeserializeObject<Dictionary<string, string>>(x);
+            int index = 0;
+            foreach (KeyValuePair<string, string> kvp in htmlAttributes)
+            {
+                //textBox3.Text += ("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
+                suggestion_dic.Add(file_paths[index].ToString(), Convert.ToDouble(kvp.Value));
+                index++;
+            }
+            var sortedDict = suggestion_dic.OrderByDescending(v => v.Value).ToDictionary(v => v.Key, v => v.Value);
+            ViewBag.Resumes = sortedDict;
+            return View("SuggestedResume");
+        }
+        public FileResult Resume_Viewer(string Name)
+        {
+            
+            byte[] bytes = System.IO.File.ReadAllBytes(Name);
+            return new FileContentResult(bytes, "application/pdf");
         }
         public ActionResult EmployerLogout()
         {

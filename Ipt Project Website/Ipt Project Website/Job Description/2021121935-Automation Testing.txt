@@ -1,0 +1,89 @@
+POSITION TITLE
+DEPARTMENT
+LOCATION
+REPORTING TO
+OBJECTIVE OF THE
+ROLE
+
+JOB DESCRIPTION AND SPECIFICATION
+Software Tester - Manual & Automation Testing
+Technology & Software Development
+Mumbai
+To the Project Manager/Tech Lead
+Software Tester – Manual & Automation Testing
+-
+
+KEY RESPONSIBILITIES
+-
+
+-
+
+COMPETENCIES/SKILLS
+
+
+
+
+
+
+
+
+Understand the business/customer requirements thoroughly and be a
+part of team meetings where requirements are being conveyed to the
+technical team
+Thoroughly test all products/modules assigned to self and report
+issues/bugs
+Maintain strong documentation of all test cases and use cases from
+technical as well as functional perspective to ensure thorough and end to
+end testing
+Familiarity with AGILE development methodologies
+Perform all kinds of testing like stress testing, regression testing,
+performance testing, functional testing, etc.
+Write and execute test scripts
+Run manual as well as automated tests for best results
+Testing on web as well as mobile environments
+Ensuring good performance of the system from end user perspective
+Ensuring the system is robust as well as user friendly
+Review documentation made by technical team as well as business team
+for clarity and point out errors, if any
+Quality assurance and timely feedback
+Staying up-to-date on the latest technologies and using the same to
+improve efficiency
+Process orientation
+Working on multiple projects simultaneously
+Delivering tasks as per desired and decided timelines
+Excellent verbal and written communication skills in English
+Strong technical background, work experience and qualification
+Previous experience in similar role highly preferred
+Knowledge of Logistics and Supply Chain sectors will be an added advantage
+Openness and curiosity to constantly keep learning and improving
+Performance and goal oriented and highly focused individual
+
+
+
+
+
+
+
+Problem Solving Skills
+Strong competence on MS Word, Excel and Technical Automated Testing Tools
+Ability to adapt and work in a high performance, dynamic environment
+Strong Documentation Skills
+Attention to Detail and Desire to deliver perfection to end customers
+
+QUALIFICATION
+
+Essential: Graduate(B.E/B.Tech preferred)
+
+YEARS OF EXPERIENCE
+COMPANY WEBSITE
+
+Essential: 2 yrs
+Desired: 2-5yrs
+www.elixia.tech
+
+CORPORATE VIDEOS
+
+www.youtube.com/watch?v=OX3R4CABiJ0
+www.youtube.com/watch?v=cZ4WGkJy3hI
+
+
