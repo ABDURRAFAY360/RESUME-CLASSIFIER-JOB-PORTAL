@@ -181,5 +181,26 @@ namespace Ipt_Project_Website.Controllers
             Session["Employer"] = 0;
             return RedirectToRoute("Homepage");
         }
+
+        public ActionResult ViewAppliedPlaces()
+        {
+            DbModel dbmodel = new DbModel();
+            List<Job_post> newposts= new List<Job_post>();
+            User user = Session["User"] as User;
+            var posts = dbmodel.Job_post.ToList();
+            var applicants = dbmodel.Job_applicant.ToList();
+            foreach(Job_post p in posts)
+            {
+                foreach(Job_applicant app in applicants)
+                {
+                    if(app.applicant_id == user.id && p.Job_id==app.job_id)
+                    {
+                        newposts.Add(p);
+                    }
+                }
+            }
+            ViewBag.Posts=newposts;
+            return View();
+        }
     }
 }
