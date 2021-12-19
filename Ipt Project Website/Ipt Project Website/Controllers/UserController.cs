@@ -68,7 +68,12 @@ namespace Ipt_Project_Website.Controllers
 
         [HttpGet]
         public ActionResult UserLogin()
-        { 
+        {
+            if (Session["login"].ToString() == "1" && Session["User"].ToString() != "0")
+            {
+                ViewBag.Message = "Please login first";
+                return RedirectToRoute("Homepage");
+            }
             return View();
         }
 
@@ -97,13 +102,6 @@ namespace Ipt_Project_Website.Controllers
        
         public ActionResult JobApply()
         {
-            //string JobDescriptionPath = ConfigurationManager.AppSettings["JobDescription"].ToString();
-            //List<string> jd_name = new List<string>();
-            //foreach (string txtName in Directory.GetFiles(JobDescriptionPath, "*.txt"))
-            //{
-            //    jd_name.Add(System.IO.Path.GetFileNameWithoutExtension(txtName));
-            //}
-            //ViewBag.JobDescription = jd_name;
             List<Job_post> job_post = new List<Job_post>();
             List<Employer> employer = new List<Employer>();
             if (Session["login"].ToString() == "0")
@@ -148,6 +146,15 @@ namespace Ipt_Project_Website.Controllers
 
         public ActionResult job_apply(int job_id)
         {
+            if (Session["login"].ToString() == "0")
+            {
+                ViewBag.Message = "Please login first";
+                return RedirectToRoute("Userlogin");
+            }
+            else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            {
+                return RedirectToRoute("Userlogin");
+            }
             DbModel dbmodel = new DbModel();
             Job_applicant applicant = new Job_applicant();
             List<Job_applicant> app = new List<Job_applicant>();
@@ -184,6 +191,15 @@ namespace Ipt_Project_Website.Controllers
 
         public ActionResult ViewAppliedPlaces()
         {
+            if (Session["login"].ToString() == "0")
+            {
+                ViewBag.Message = "Please login first";
+                return RedirectToRoute("Userlogin");
+            }
+            else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            {
+                return RedirectToRoute("Userlogin");
+            }
             DbModel dbmodel = new DbModel();
             List<Job_post> newposts= new List<Job_post>();
             User user = Session["User"] as User;

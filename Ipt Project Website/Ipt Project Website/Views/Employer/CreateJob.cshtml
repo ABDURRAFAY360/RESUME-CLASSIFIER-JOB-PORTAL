@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>CreateJob</h2>
+<h2>Add new job/vacancy</h2>
 
 
 @using (Html.BeginForm("CreateJob", "Employer", FormMethod.Post, new
@@ -58,9 +58,6 @@
 </div>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
