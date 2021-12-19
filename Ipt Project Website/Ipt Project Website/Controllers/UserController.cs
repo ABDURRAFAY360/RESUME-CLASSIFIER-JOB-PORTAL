@@ -94,16 +94,23 @@ namespace Ipt_Project_Website.Controllers
             ViewBag.Message = "unSuccessful";
             return View();
         }
-        [HttpGet]
         public ActionResult JobApply()
         {
-            string JobDescriptionPath = ConfigurationManager.AppSettings["JobDescription"].ToString();
-            List<string> jd_name = new List<string>();
-            foreach (string txtName in Directory.GetFiles(JobDescriptionPath, "*.txt"))
+            //string JobDescriptionPath = ConfigurationManager.AppSettings["JobDescription"].ToString();
+            //List<string> jd_name = new List<string>();
+            //foreach (string txtName in Directory.GetFiles(JobDescriptionPath, "*.txt"))
+            //{
+            //    jd_name.Add(System.IO.Path.GetFileNameWithoutExtension(txtName));
+            //}
+            //ViewBag.JobDescription = jd_name;
+            List<Job_post> job_post = new List<Job_post>();
+            List<Employer> employer = new List<Employer>();
+            using (DbModel dbmodel = new DbModel())
             {
-                jd_name.Add(System.IO.Path.GetFileNameWithoutExtension(txtName));
+                ViewBag.EmployerList = dbmodel.Employers.ToList();
+                ViewBag.JobList = dbmodel.Job_post.ToList();
             }
-            ViewBag.JobDescription = jd_name;
+
             return View();
         }
         public ActionResult UserLogout()

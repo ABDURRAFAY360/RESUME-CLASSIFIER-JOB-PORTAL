@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Ipt_Project_Website.Models.Job_applicant>
+
+@{
+    ViewBag.Title = "JobApply";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>JobApply</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Company Name
+        </th>
+        <th>
+            Job Designation
+        </th>
+        <th>
+            Job Description
+        </th>
+    </tr>
+
+@foreach (var item in ViewBag.JobList) {
+<tr>
+    <td>
+        @item.Job_id
+    </td>
+    <td>
+        @item.Job_designation
+    </td>
+    <td>
+        @item.Job_description
+    </td>
+</tr>
+}
+
+</table>
