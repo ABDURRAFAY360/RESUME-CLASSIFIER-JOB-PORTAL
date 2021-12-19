@@ -43,6 +43,11 @@ namespace Ipt_Project_Website
             url: "Employer/ResumeViewer",
             defaults: new { controller = "Employer", action = "Resume_Viewer", id = UrlParameter.Optional }
             );
+            routes.MapRoute(
+            name: "JobApply",
+            url: "User/JobApply",
+            defaults: new { controller = "User", action = "JobApply", id = UrlParameter.Optional }
+            );
         }
     }
 }

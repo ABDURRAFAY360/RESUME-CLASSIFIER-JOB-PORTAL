@@ -24,7 +24,7 @@ namespace Ipt_Project_Website.Controllers
                 ViewBag.Message = "Please login first";
                 return RedirectToRoute("Employerlogin");
             }
-            else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            else if (Session["login"].ToString() == "1" && Session["User"].ToString() != "0")
             {
                 return RedirectToRoute("Employerlogin");
             }
@@ -73,7 +73,7 @@ namespace Ipt_Project_Website.Controllers
         [HttpGet]
         public ActionResult EmployerLogin()
         {
-            if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            if (Session["login"].ToString() == "1" && Session["User"].ToString() != "0")
             {
                 ViewBag.Message = "Please login first";
                 return RedirectToRoute("Homepage");
@@ -161,7 +161,7 @@ namespace Ipt_Project_Website.Controllers
                 ViewBag.Message = "Please login first";
                 return RedirectToRoute("Employerlogin");
             }
-            else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            else if (Session["login"].ToString() == "1" && Session["User"].ToString() != "0")
             {
                 return RedirectToRoute("Employerlogin");
             }
@@ -237,7 +237,7 @@ namespace Ipt_Project_Website.Controllers
                 ViewBag.Message = "Please login first";
                 return RedirectToRoute("Employerlogin");
             }
-            else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            else if (Session["login"].ToString() == "1" && Session["User"].ToString() != "0")
             {
                 return RedirectToRoute("Employerlogin");
             }
@@ -263,7 +263,7 @@ namespace Ipt_Project_Website.Controllers
                 ViewBag.Message = "Please login first";
                 return RedirectToRoute("Employerlogin");
             }
-            else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
+            else if (Session["login"].ToString() == "1" && Session["User"].ToString() != "0")
             {
                 return RedirectToRoute("Employerlogin");
             }
