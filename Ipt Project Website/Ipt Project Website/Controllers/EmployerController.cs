@@ -215,10 +215,17 @@ namespace Ipt_Project_Website.Controllers
         }
         public ActionResult EmployerLogout()
         {
-            Session["login"] = 0;
-
+            Session["login"] = "0";
+            Session["User"] = 0;
+            Session["User_ID"] = 0;
+            Session["Employer_ID"] = 0;
+            Session["Model"] = 0;
+            Session["UserModel"] = 0;
+            Session["EmployerModel"] = 0;
             Session["Employer"] = 0;
             return RedirectToRoute("Homepage");
         }
+
+
     }
 }
