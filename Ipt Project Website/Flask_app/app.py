@@ -79,13 +79,6 @@ def cosine_similarity_cal():
     query_vector_res = job_description_tfidf_vector(job_description[0])
     cosine_answers.append(cosine_similarity(doc_vector, query_vector_res))
     result = dict(enumerate(cosine_answers[0].flatten(), 1))
-    print(type(result))
-    response = app.response_class(
-            response=json.dumps(result),
-            status=200,
-            mimetype='application/json'
-        )
-    
     return result
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=80)  # If address is in use, may need to terminate other sessions:

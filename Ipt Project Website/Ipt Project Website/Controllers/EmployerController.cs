@@ -128,7 +128,7 @@ namespace Ipt_Project_Website.Controllers
             DbModel dbmodel = new DbModel();
             Job_post post = new Job_post();
             Employer emp = Session["Employer"] as Employer;
-            post.Employer_id = 1;
+            post.Employer_id = emp.id;
             post.Job_description = text;
             post.Job_designation = job.Job_designation;
             /*Response.Write(text);
@@ -136,9 +136,6 @@ namespace Ipt_Project_Website.Controllers
             */
             dbmodel.Job_post.Add(post);
             dbmodel.SaveChanges();
-
-
-            ModelState.Clear();
             ViewBag.SuccessMessage = "Registration Successful";
             return View();
         }
@@ -209,6 +206,12 @@ namespace Ipt_Project_Website.Controllers
             var sortedDict = suggestion_dic.OrderByDescending(v => v.Value).ToDictionary(v => v.Key, v => v.Value);
             ViewBag.Resumes = sortedDict;
             return View("SuggestedResume");
+        }
+        public FileResult Resume_Viewer(string Name)
+        {
+            
+            byte[] bytes = System.IO.File.ReadAllBytes(Name);
+            return new FileContentResult(bytes, "application/pdf");
         }
         public ActionResult EmployerLogout()
         {

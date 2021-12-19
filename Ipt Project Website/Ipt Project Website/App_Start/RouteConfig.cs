@@ -30,7 +30,7 @@ namespace Ipt_Project_Website
             );
             routes.MapRoute(
             name: "Employerlogin",
-            url: "User/UserLogin",
+            url: "Employer/EmployerLogin",
             defaults: new { controller = "Employer", action = "EmployerLogin", id = UrlParameter.Optional }
             );
             routes.MapRoute(

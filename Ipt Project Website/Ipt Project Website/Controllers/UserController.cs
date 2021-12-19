@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 using Ipt_Project_Website.Models;
 using System.Web.SessionState;
+using System.Configuration;
+using System.IO;
 
 namespace Ipt_Project_Website.Controllers
 {
@@ -92,7 +94,18 @@ namespace Ipt_Project_Website.Controllers
             ViewBag.Message = "unSuccessful";
             return View();
         }
-
+        [HttpGet]
+        public ActionResult JobApply()
+        {
+            string JobDescriptionPath = ConfigurationManager.AppSettings["JobDescription"].ToString();
+            List<string> jd_name = new List<string>();
+            foreach (string txtName in Directory.GetFiles(JobDescriptionPath, "*.txt"))
+            {
+                jd_name.Add(System.IO.Path.GetFileNameWithoutExtension(txtName));
+            }
+            ViewBag.JobDescription = jd_name;
+            return View();
+        }
         public ActionResult UserLogout()
         {
             Session["User"] = 0;
