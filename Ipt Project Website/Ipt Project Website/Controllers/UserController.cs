@@ -81,6 +81,14 @@ namespace Ipt_Project_Website.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult UserLogin(FormCollection collection)
         {
+            Session["login"] = "0";
+            Session["User"] = 0;
+            Session["User_ID"] = 0;
+            Session["Employer_ID"] = 0;
+            Session["Model"] = 0;
+            Session["UserModel"] = 0;
+            Session["EmployerModel"] = 0;
+            Session["Employer"] = 0;
             List<User> UserList = new List<User>();
             using (DbModel dbmodel = new DbModel())
             {

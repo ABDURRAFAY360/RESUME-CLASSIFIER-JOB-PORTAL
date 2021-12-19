@@ -32,8 +32,8 @@ namespace IPT_Project_Desktop
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.emailBox = new System.Windows.Forms.TextBox();
+            this.passwordBox = new System.Windows.Forms.TextBox();
             this.LoginButton = new System.Windows.Forms.Button();
             this.BackButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -43,7 +43,7 @@ namespace IPT_Project_Desktop
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label1.Location = new System.Drawing.Point(118, 22);
+            this.label1.Location = new System.Drawing.Point(118, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(345, 41);
             this.label1.TabIndex = 1;
@@ -71,22 +71,22 @@ namespace IPT_Project_Desktop
             this.label5.TabIndex = 5;
             this.label5.Text = "Password:";
             // 
-            // textBox3
+            // emailBox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(238, 125);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(291, 31);
-            this.textBox3.TabIndex = 15;
+            this.emailBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailBox.Location = new System.Drawing.Point(238, 125);
+            this.emailBox.Name = "emailBox";
+            this.emailBox.Size = new System.Drawing.Size(291, 31);
+            this.emailBox.TabIndex = 15;
             // 
-            // textBox4
+            // passwordBox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(238, 178);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.PasswordChar = '*';
-            this.textBox4.Size = new System.Drawing.Size(291, 31);
-            this.textBox4.TabIndex = 16;
+            this.passwordBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passwordBox.Location = new System.Drawing.Point(238, 178);
+            this.passwordBox.Name = "passwordBox";
+            this.passwordBox.PasswordChar = '*';
+            this.passwordBox.Size = new System.Drawing.Size(291, 31);
+            this.passwordBox.TabIndex = 16;
             // 
             // LoginButton
             // 
@@ -98,6 +98,7 @@ namespace IPT_Project_Desktop
             this.LoginButton.TabIndex = 24;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseVisualStyleBackColor = true;
+            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
             // BackButton
             // 
@@ -109,6 +110,7 @@ namespace IPT_Project_Desktop
             this.BackButton.TabIndex = 25;
             this.BackButton.Text = "Back";
             this.BackButton.UseVisualStyleBackColor = true;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
             // 
             // EmployerLogin
             // 
@@ -117,8 +119,8 @@ namespace IPT_Project_Desktop
             this.ClientSize = new System.Drawing.Size(622, 347);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.LoginButton);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.passwordBox);
+            this.Controls.Add(this.emailBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
@@ -134,8 +136,8 @@ namespace IPT_Project_Desktop
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox emailBox;
+        private System.Windows.Forms.TextBox passwordBox;
         private System.Windows.Forms.Button LoginButton;
         private System.Windows.Forms.Button BackButton;
     }
