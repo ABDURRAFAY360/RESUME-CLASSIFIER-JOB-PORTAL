@@ -117,9 +117,31 @@ namespace Ipt_Project_Website.Controllers
             using (DbModel dbmodel = new DbModel())
             {
                 ViewBag.EmployerList = dbmodel.Employers.ToList();
-                ViewBag.JobList = dbmodel.Job_post.ToList();
-            }
+                var post= dbmodel.Job_post.ToList();
+                var jobapplicant = dbmodel.Job_applicant.ToList();
+                var user = Session["User"] as User;
+                int check = 0;
+                List<Job_post> joblist = new List<Job_post>();
+                foreach(Job_post p in post)
+                {
+                    foreach(var app in jobapplicant)
+                    {
+                        if (app.applicant_id == user.id && app.job_id == p.Job_id)
+                        {
+                            check = -1;
+                            break;
+                        }
+                        check = 0;
+                    }
+                    if (check != -1)
+                    {
+                        joblist.Add(p);
+                        check = 0;
+                    }
 
+                }
+                ViewBag.JobList = joblist;
+            }
             return View();
         }
 
