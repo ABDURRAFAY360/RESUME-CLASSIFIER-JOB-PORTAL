@@ -23,8 +23,6 @@ namespace IPT_Project_Desktop
 
         private void SignUpButton_Click(object sender, EventArgs e)
         {
-            //Regex check = new Regex(@"");
-            //Match match = check.Match();
 
             Regex check;
             Match match;
@@ -48,7 +46,21 @@ namespace IPT_Project_Desktop
             }
 
             string email = textBox3.Text;
-            
+            try
+            {
+                new System.Net.Mail.MailAddress(email);
+            }
+            catch (ArgumentException)
+            {
+                MessageBox.Show("No email entered");
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Invalid email");
+                textBox3.Clear();
+            }
+
+
 
             string password = textBox4.Text;
             check = new Regex(@"^(?=.*?[a-z])(?=.*?[0-9]).{8,}$");
@@ -73,10 +85,29 @@ namespace IPT_Project_Desktop
             }
 
             string city = textBox8.Text;
-            
+            if (city.Length < 4)
+            {
+                Regex.IsMatch(city, @"^[a-zA-Z]+$");
+                MessageBox.Show("Please enter a city!");
+                textBox8.Clear();
+            }
             string country = textBox9.Text;
 
+            if (country.Length <4 )
+            {
+                Regex.IsMatch(country, @"^[a-zA-Z]+$");
+                MessageBox.Show("Please enter a valid country name!");
+                textBox9.Clear();
+            }
+
             string companyName = textBox10.Text;
+
+            if (companyName.Length < 2)
+            {
+                Regex.IsMatch(companyName, @"^[a-zA-Z]+$");
+                MessageBox.Show("Please enter a valid company name!");
+                textBox10.Clear();
+            }
 
             string companyContactNumber = textBox11.Text;
             check = new Regex(@"^(?:(?:\(?(?:00|\+)([1-4]\d\d|[1-9]\d?)\)?)?[\-\.\ \\\/]?)?((?:\(?\d{1,}\)?[\-\.\ \\\/]?){0,})(?:[\-\.\ \\\/]?(?:#|ext\.?|extension|x)[\-\.\ \\\/]?(\d+))?$");
@@ -122,6 +153,7 @@ namespace IPT_Project_Desktop
                 employer.Company_name = companyName;
                 employer.Company_contact_number = companyContactNumber;
 
+
                 using (dbModel = new DatabaseModel())
                 {
                     dbModel.Employers.Add(employer);
@@ -136,18 +168,6 @@ namespace IPT_Project_Desktop
                 this.Close();
             }
 
-            
-
-            //string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C: \\Users\\umaim\\Desktop\\Workspaces\\IPT\\Project_IPT_New\\Ipt Project Website\\Ipt Project Website\\App_Data\\Database.mdf\";Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework";
-            //SqlConnection connection = new SqlConnection(connectionString);
-            
-            //if(connection.State == ConnectionState.Open)
-            //{
-            //    string query = "insert into Employer(First_name, Last_name, Email, Password, Current_education, Employment_status, Phone_number, City, Country, Company_name, Company_contact_number) values('" + firstName + "','" + lastName + "','" + email + "','" + password + "','" + currentEducation + "','" + employmentStatus + "','" + phoneNumber + "','" + city + "','" + country + "','" + companyName + "','" + companyContactNumber + "')";
-            //    SqlCommand command = new SqlCommand(query, connection);
-            //    MessageBox.Show("Sign Up successful!");
-            //}
-
         }
 
         private void BackButton_Click(object sender, EventArgs e)
@@ -158,5 +178,9 @@ namespace IPT_Project_Desktop
             this.Close();
         }
 
+        private void textBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
