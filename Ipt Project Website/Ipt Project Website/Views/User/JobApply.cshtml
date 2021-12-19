@@ -7,9 +7,6 @@
 
 <h2>JobApply</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
 <table class="table">
     <tr>
         <th>
@@ -26,7 +23,13 @@
 @foreach (var item in ViewBag.JobList) {
 <tr>
     <td>
-        @item.Job_id
+        @foreach(var i in ViewBag.EmployerList)
+        {
+            if(i.id == item.Employer_id)
+            {
+                @i.Company_name
+            }
+        }
     </td>
     <td>
         @item.Job_designation
