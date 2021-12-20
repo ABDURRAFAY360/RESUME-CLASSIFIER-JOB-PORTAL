@@ -123,10 +123,24 @@ namespace Ipt_Project_Website.Controllers
             }
             using (DbModel dbmodel = new DbModel())
             {
+                var resume_check = dbmodel.Resumes.ToList();
                 ViewBag.EmployerList = dbmodel.Employers.ToList();
                 var post= dbmodel.Job_post.ToList();
                 var jobapplicant = dbmodel.Job_applicant.ToList();
                 var user = Session["User"] as User;
+                int rcheck = 0;
+                foreach (Resume r in resume_check)
+                {
+                    if (r.user_id == user.id)
+                    {
+                        rcheck = 1;
+                    }
+                }
+                if (rcheck != 1)
+                {
+                    ViewBag.ErrorMsg = "Please Upload your resume before Applying";
+                    return RedirectToRoute("ResumeUpload");
+                }
                 int check = 0;
                 List<Job_post> joblist = new List<Job_post>();
                 foreach(Job_post p in post)

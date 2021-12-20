@@ -48,6 +48,11 @@ namespace Ipt_Project_Website
             url: "User/JobApply",
             defaults: new { controller = "User", action = "JobApply", id = UrlParameter.Optional }
             );
+            routes.MapRoute(
+            name: "ResumeUpload",
+            url: "User/ResumeUpload",
+            defaults: new { controller = "Resume", action = "ResumeUpload", id = UrlParameter.Optional }
+            );
         }
     }
 }
