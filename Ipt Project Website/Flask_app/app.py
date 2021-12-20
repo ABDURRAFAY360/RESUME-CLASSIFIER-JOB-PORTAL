@@ -48,7 +48,7 @@ def job_description_tfidf_vector(job_description):
 @app.route("/",methods=['POST'])
 def hello():
     resume = []
-    data = request.json['thing1']
+    data = request.json['resume']
     #Word Vectorizer object is been loaded which we saved in training.ipynb during training our model
     #We use the same object as we are using the trained here
     resume.append(data)
@@ -66,7 +66,7 @@ def hello():
             status=200,
             mimetype='application/json'
         )
-    return response
+    return final_categories
 @app.route("/JobSuggestion", methods = ['POST'])
 def cosine_similarity_cal():
     global vectorizer
