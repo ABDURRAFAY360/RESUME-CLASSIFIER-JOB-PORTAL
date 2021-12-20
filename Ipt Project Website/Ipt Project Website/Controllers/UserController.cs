@@ -139,7 +139,7 @@ namespace Ipt_Project_Website.Controllers
                 if (rcheck != 1)
                 {
                     ViewBag.ErrorMsg = "Please Upload your resume before Applying";
-                    return RedirectToRoute("ResumeUpload");
+                    return View("~/Views/Resume/ResumeUpload.cshtml");
                 }
                 int check = 0;
                 List<Job_post> joblist = new List<Job_post>();

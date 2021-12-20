@@ -50,7 +50,7 @@ namespace Ipt_Project_Website
             );
             routes.MapRoute(
             name: "ResumeUpload",
-            url: "User/ResumeUpload",
+            url: "Resume/ResumeUpload",
             defaults: new { controller = "Resume", action = "ResumeUpload", id = UrlParameter.Optional }
             );
         }

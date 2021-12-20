@@ -185,20 +185,22 @@ namespace Ipt_Project_Website.Controllers
             read_jd.Add(job_description);
             List<string> read_resumes = new List<string>();
             List<string> file_paths = new List<string>();
-            foreach (string txtName in Directory.GetFiles(UploadPath, "*.pdf"))
-            {
-                file_paths.Add(txtName);
-                StringBuilder text = new StringBuilder();
-                using (PdfReader reader = new PdfReader(txtName))
+        
+                foreach (string txtName in Directory.GetFiles(UploadPath, "*.pdf"))
                 {
-                    for (int i = 1; i <= reader.NumberOfPages; i++)
+                    file_paths.Add(txtName);
+                    StringBuilder text = new StringBuilder();
+                    using (PdfReader reader = new PdfReader(txtName))
                     {
-                        text.Append(PdfTextExtractor.GetTextFromPage(reader, i));
+                        for (int i = 1; i <= reader.NumberOfPages; i++)
+                        {
+                            text.Append(PdfTextExtractor.GetTextFromPage(reader, i));
+                        }
+                        read_resumes.Add(text.ToString());
                     }
-                    read_resumes.Add(text.ToString());
                 }
-            }
-            
+           
+
         /*  Response.Write(read_resumes[0][0]);
             Response.Write(read_resumes[1][0]);
             Response.Write(read_resumes[2][0]);
@@ -216,6 +218,8 @@ namespace Ipt_Project_Website.Controllers
             var response = await client.PostAsync("https://rafay.ap.ngrok.io/JobSuggestion", data);
             string x = await response.Content.ReadAsStringAsync();
             Dictionary<string, double> suggestion_dic = new Dictionary<string, double>();
+            try
+            { 
             Dictionary<string, string> htmlAttributes =
             JsonConvert.DeserializeObject<Dictionary<string, string>>(x);
             int index = 0;
@@ -226,8 +230,17 @@ namespace Ipt_Project_Website.Controllers
                 index++;
             }
             var sortedDict = suggestion_dic.OrderByDescending(v => v.Value).ToDictionary(v => v.Key, v => v.Value);
-            ViewBag.Resumes = sortedDict;
+            
+           ViewBag.Resumes = sortedDict;
+
             return View("SuggestedResume");
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Resumes = 0;
+                ViewBag.Exception = "No resumes are uploaded";
+                return View("ErrorSuggestedResume");
+            }
         }
 
         public ActionResult job_applicant()
