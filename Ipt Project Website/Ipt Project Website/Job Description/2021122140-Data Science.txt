@@ -1,0 +1,110 @@
+THE
+YOUNG
+FOUNDATION
+
+DATA SCIENTIST & VISUALISATION OFFICER: JOB DESCRIPTION
+
+Job title: Data Science Officer
+Area: Research
+
+Location: Bethnal Green, London
+Line manager: Director of Research
+
+Purpose of role
+
+The purpose of the role is to develop and embed a new data science and visualisation fucntion within the
+Young Foundation Research Team, while providing strong analytical input into our work. The post holder
+will work closely with the Research Team, other Young Foundation colleagues and external partners to
+achieve this.
+
+Duties of the role
+
+e Leading on data analytics across Young Foundation research projects. This is primarily expected to
+include working with large publicly available data sets but may also include analysis of secondary
+research data, our own survey data or bespoke data sets provided by our partners.
+
+e Leading on the creation of data visualisations (both static and interactive).
+
+e Prototype, develop, test & execute data analytics & data visualisation tools — including exploring how
+we can make greater use of large volumes of unstructured data
+
+e = Identification of appropriate tools and software to support the delivery and growth of data analytics
+and visualisation within The Young Foundation
+
+e Supporting colleagues across The Young Foundation to learn new data analysis skills
+
+e Working closely with others as part of a team and with stakeholders and local partners to manage
+relationships and deliver work.
+
+e Producing high quality and varied research outputs for a range of audiences including analysis,
+report writing and presentations where necessary.
+
+e Taking responsibility for data and project management and administration as it relates to delivering
+work.
+
+e Any other duties as required by the line manager in line with the grade of the post.
+PERSON SPECIFICATION
+
+Prior experience - essential
+
+e Experience in data analytics using large data sets, gained either through a postgraduate degree ina
+relevant subject area or comparable experience gained through work in the public, private or third
+sectors.
+
+e Experience of combining multiple data sets to create new insights
+
+e Experience in producing creative and insightful data visualisations, particularly with a geographic
+focus
+
+e Experience of creating interactive data tools that allow the interrogation of bespoke data sets
+
+e Evidence of education or training in a relevant area (e.g. data science, statistics, mathematics, etc.),
+ideally to postgraduate level
+
+e Experience of cleaning datasets, conducting data linkage exercises and other data preparation work
+to facilitate high quality data analysis
+
+e = Advanced skills in Excel, analysis packages such as R (or similar), and relevant programming
+languages (e.g. Python)
+
+e Evidence of ability to grasp complex concepts and debates quickly and to translate these into
+appropriate questions for data analysis
+
+e Evidence of ability to work across multiple projects and effectively manage competing demands on
+time
+
+e Evidence of having worked in group settings and / or as part of a cross-organisational or inter-
+organisational team
+
+e = Ability to communicate data findings effectively to a range of audiences, including through engaging
+written reports and summaries for lay audiences
+
+e Evidence of initiative and being a self-starter
+
+e Willingness to work in multi-disciplinary, cross-organisational teams, including the exploration of
+new methods of blending qualitative research insights and analysis large volumes of unstructured
+data
+
+Prior experience — desirable
+
+e Demonstrable knowledge of a subject area related to the areas of Young Foundation work, such as:
+Communities and Places, Health, Education, Social Innovation etc.
+
+e Experience of using Public Sector data sets relevant to YF work and/ or secondary research data sets
+(e.g. Understanding Society).
+
+e Experience of using GIS software and geographic mapping
+
+e Experience of contributing to hackathons and/ or data sprints
+
+e Experience of fields such as text analytics or machine learning, or working with large volumes of
+unstructured data.
+
+e Experience of evaluations
+
+e Evidence of having been involved in successful bid writing
+
+e Intermediate or above SPSS {or similar) skills
+
+June 2018
+

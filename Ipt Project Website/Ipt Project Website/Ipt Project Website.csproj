@@ -246,6 +246,8 @@
     <Content Include="Views\Employer\applicant_view.cshtml" />
     <Content Include="Views\User\ViewAppliedPlaces.cshtml" />
     <Content Include="Views\Employer\ViewResumes.cshtml" />
+    <Content Include="Views\Employer\NewViewResumes.cshtml" />
+    <Content Include="Views\Employer\ErrorNewViewResumes.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

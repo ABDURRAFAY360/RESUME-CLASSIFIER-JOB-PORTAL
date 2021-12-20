@@ -200,13 +200,6 @@ namespace Ipt_Project_Website.Controllers
                     }
                 }
            
-
-        /*  Response.Write(read_resumes[0][0]);
-            Response.Write(read_resumes[1][0]);
-            Response.Write(read_resumes[2][0]);
-            Response.Write(read_resumes[3][0]);
-            Response.Write(read_resumes[4][0]);
-            Response.End();*/
             var user = new Dictionary<string, List<string>>
             {
                 { "resumes", read_resumes},
@@ -306,9 +299,38 @@ namespace Ipt_Project_Website.Controllers
             ViewBag.Resumes = new_resume;
             return View();
         }
+        [HttpGet]
         public ActionResult ViewResumes()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult ViewResumes(Job_post job)
+        {
+            /*List<Employer> UserList = new List<Employer>();*/
+            try
+            { 
+                List<Resume> UserList = new List<Resume>();
+                using (DbModel dbmodel = new DbModel())
+                {
+                    var ResumeList = dbmodel.Resumes.ToList();
+                    foreach (Resume u in ResumeList)
+                    {
+                        if (u.Predicted_labels == job.Job_designation)
+                        {
+                            UserList.Add(u);
+                        }
+                    }
+                }
+                ViewBag.UserList = UserList;
+                return View("NewViewResumes");
+            }
+            catch(Exception ex)
+            {
+                ViewBag.newerror = "No resumes are uploaded";
+                return View("ErrorNewViewResumes");
+            }
         }
 
         public FileResult Resume_Viewer(string Name)
