@@ -306,7 +306,10 @@ namespace Ipt_Project_Website.Controllers
             ViewBag.Resumes = new_resume;
             return View();
         }
-
+        public ActionResult ViewResumes()
+        {
+            return View();
+        }
 
         public FileResult Resume_Viewer(string Name)
         {
