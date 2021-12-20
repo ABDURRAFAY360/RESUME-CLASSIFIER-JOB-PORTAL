@@ -245,11 +245,7 @@
     <Content Include="Views\Employer\job_applicant.cshtml" />
     <Content Include="Views\Employer\applicant_view.cshtml" />
     <Content Include="Views\User\ViewAppliedPlaces.cshtml" />
-<<<<<<< HEAD
-    <Content Include="Views\Employer\ErrorSuggestedResume.cshtml" />
-=======
     <Content Include="Views\Employer\ViewResumes.cshtml" />
->>>>>>> bafb6dbc0428d4abc7dbebdd76b26e3c48df9562
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
