@@ -27,6 +27,12 @@ namespace IPT_Project_Desktop
             Regex check;
             Match match;
 
+            if (string.IsNullOrEmpty(textBox1.Text) || string.IsNullOrEmpty(textBox2.Text) || string.IsNullOrEmpty(textBox3.Text) || string.IsNullOrEmpty(textBox4.Text) || string.IsNullOrEmpty(textBox5.Text) || string.IsNullOrEmpty(textBox6.Text) || string.IsNullOrEmpty(textBox7.Text) || string.IsNullOrEmpty(textBox8.Text) || string.IsNullOrEmpty(textBox9.Text) || string.IsNullOrEmpty(textBox10.Text) || string.IsNullOrEmpty(textBox11.Text))
+            {
+                MessageBox.Show("Please complete the form in order to Sign Up.");
+                return;
+            }
+
             string firstName = textBox1.Text;
             check = new Regex(@"^[A-Za-z]+([\ A-Za-z]+)*");
             match = check.Match(firstName);

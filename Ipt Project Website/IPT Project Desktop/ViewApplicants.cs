@@ -107,7 +107,22 @@ namespace IPT_Project_Desktop
 
         private void ViewButton_Click(object sender, EventArgs e)
         {
-            int applicantID = Convert.ToInt32(CandidatesBox.Text);
+            int applicantID = 0;
+
+            if (!string.IsNullOrEmpty(JobsBox.Text) && !string.IsNullOrEmpty(CandidatesBox.Text))
+            {
+                MessageBox.Show("Please select all the fields");
+            }
+           try
+            {
+                applicantID = Convert.ToInt32(CandidatesBox.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Please select all the fields");
+                return;
+            }
+           
             string path = "";
 
             using (DatabaseModel dbModel = new DatabaseModel())
@@ -127,5 +142,6 @@ namespace IPT_Project_Desktop
             Process.Start(path);
 
         }
+
     }
 }
