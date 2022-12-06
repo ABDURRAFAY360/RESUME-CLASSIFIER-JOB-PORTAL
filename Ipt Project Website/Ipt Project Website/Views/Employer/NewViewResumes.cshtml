@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "NewViewResumes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>All the posted Resumes</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Resume No
+        </th>
+        <th>
+            Resume Type
+        </th>
+        <th>
+            View Resume
+        </th>
+    </tr>
+    @{
+        int counter = 1;
+        foreach (var item in ViewBag.UserList)
+        {
+
+            <tr>
+                <td>
+                    @counter
+                </td>
+                <td>
+                    @item.Predicted_labels
+                </td>
+                <td>
+                    @Html.ActionLink("View Resume", "Resume_Viewer", new { Name = @item.filepath })
+                </td>
+            </tr>
+            counter = counter + 1;
+
+
+        }
+    }
+
+

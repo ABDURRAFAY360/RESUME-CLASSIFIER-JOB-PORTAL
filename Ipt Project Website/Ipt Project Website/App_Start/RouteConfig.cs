@@ -30,13 +30,28 @@ namespace Ipt_Project_Website
             );
             routes.MapRoute(
             name: "Employerlogin",
-            url: "User/UserLogin",
+            url: "Employer/EmployerLogin",
             defaults: new { controller = "Employer", action = "EmployerLogin", id = UrlParameter.Optional }
             );
             routes.MapRoute(
             name: "Createjob",
             url: "Employer/CreateJob",
             defaults: new { controller = "Employer", action = "CreateJob", id = UrlParameter.Optional }
+            );
+            routes.MapRoute(
+            name: "ResumeViewer",
+            url: "Employer/ResumeViewer",
+            defaults: new { controller = "Employer", action = "Resume_Viewer", id = UrlParameter.Optional }
+            );
+            routes.MapRoute(
+            name: "JobApply",
+            url: "User/JobApply",
+            defaults: new { controller = "User", action = "JobApply", id = UrlParameter.Optional }
+            );
+            routes.MapRoute(
+            name: "ResumeUpload",
+            url: "Resume/ResumeUpload",
+            defaults: new { controller = "Resume", action = "ResumeUpload", id = UrlParameter.Optional }
             );
         }
     }

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Ipt_Project_Website.Models.Resume>
+
+@{
+    ViewBag.Title = "SuggestedResume";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Suggested Resume on Basis of Ranking</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Rank No
+        </th>
+        <th>
+            Ranking Score
+        </th>
+        <th>
+            Resume
+        </th>
+    </tr>
+    @{
+        int counter = 1;
+        foreach (var item in ViewBag.Resumes)
+        {
+
+            <tr>
+                    <td>
+                        @counter
+                    </td>
+                <td>
+                    @item.Value
+                </td>
+                <td>
+                    @Html.ActionLink("View Resume", "Resume_Viewer", new { Name = @item.Key })
+                </td>
+            </tr>
+            counter = counter + 1;
+
+
+        }
+      }
+
+    </table>

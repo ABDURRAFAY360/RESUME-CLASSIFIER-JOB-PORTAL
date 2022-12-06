@@ -1,0 +1,4 @@
+-Open Ipt Project Website.sln file using visual studio and run the project.
+-Select the project you need to run from the project web application or desktop application
+-Also at same time go to Flask_app folder and run app.py by following instructions in Read Me Flask.txt in that folder.
+

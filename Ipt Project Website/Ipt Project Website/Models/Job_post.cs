@@ -27,5 +27,9 @@ namespace Ipt_Project_Website.Models
         [StringLength(500)]
         public string Job_designation { get; set; }
         public int Employer_id { get; set; }
+        [DisplayName("Upload Job Description")]
+        public HttpPostedFileBase UploadFile { get; set; }
+       
+       
     }
 }

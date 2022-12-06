@@ -238,6 +238,16 @@
     <Content Include="Views\Employer\EmployerLogin.cshtml" />
     <Content Include="Views\Resume\ResumeUpload.cshtml" />
     <Content Include="Views\Employer\CreateJob.cshtml" />
+    <Content Include="Views\Employer\ResumeSuggestion.cshtml" />
+    <Content Include="Views\Employer\SuggestedResume.cshtml" />
+    <Content Include="Views\Employer\Resume_Viewer.cshtml" />
+    <Content Include="Views\User\JobApply.cshtml" />
+    <Content Include="Views\Employer\job_applicant.cshtml" />
+    <Content Include="Views\Employer\applicant_view.cshtml" />
+    <Content Include="Views\User\ViewAppliedPlaces.cshtml" />
+    <Content Include="Views\Employer\ViewResumes.cshtml" />
+    <Content Include="Views\Employer\NewViewResumes.cshtml" />
+    <Content Include="Views\Employer\ErrorNewViewResumes.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

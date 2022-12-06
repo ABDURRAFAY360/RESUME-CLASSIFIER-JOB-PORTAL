@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Ipt_Project_Website.Models.Resume>
+
+@{
+    ViewBag.Title = "applicant_view";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>All the applicants that applied</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Resume No #
+        </th>
+        <th>
+            Resumes
+        </th>
+    </tr>
+
+    @{
+        int counter = 1;
+        foreach (var item in ViewBag.Resumes)
+        {
+            <tr>
+                <td>
+                    @counter
+                </td>
+                <td>
+                    @Html.ActionLink("View Resume", "Resume_Viewer", new { Name = @item.filepath })
+                </td>
+            </tr>
+            counter = counter + 1;
+        }
+        }
+
+    </table>

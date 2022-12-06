@@ -1,0 +1,47 @@
+﻿@model Ipt_Project_Website.Models.Job_post
+
+@{
+    ViewBag.Title = "ResumeSuggestion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Suggest Jobs</h2>
+
+@using (Html.BeginForm("ResumeSuggestion", "Employer", FormMethod.Post, new
+{
+    enctype = "multipart/form-data"
+}))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Suggest Jobs</h4>
+        <hr />
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Job_description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <select name="Job_description" id="des">
+                    @foreach (var job in ViewBag.JobDescription)
+                    {
+                        <option value="@job">@job</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Suggest" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

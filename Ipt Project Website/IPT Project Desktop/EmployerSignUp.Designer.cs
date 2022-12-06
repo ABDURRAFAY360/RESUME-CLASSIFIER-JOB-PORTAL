@@ -45,8 +45,6 @@ namespace IPT_Project_Desktop
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -54,6 +52,8 @@ namespace IPT_Project_Desktop
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.SignUpButton = new System.Windows.Forms.Button();
             this.BackButton = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.ComboBox();
+            this.textBox6 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -221,22 +221,6 @@ namespace IPT_Project_Desktop
             this.textBox4.Size = new System.Drawing.Size(291, 31);
             this.textBox4.TabIndex = 15;
             // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(358, 227);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(291, 31);
-            this.textBox5.TabIndex = 16;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(358, 265);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(291, 31);
-            this.textBox6.TabIndex = 17;
-            // 
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -299,12 +283,44 @@ namespace IPT_Project_Desktop
             this.BackButton.TabIndex = 26;
             this.BackButton.Text = "Back";
             this.BackButton.UseVisualStyleBackColor = true;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
+            // 
+            // textBox5
+            // 
+            this.textBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.FormattingEnabled = true;
+            this.textBox5.Items.AddRange(new object[] {
+            "B.Sc",
+            "M.Sc",
+            "Ph.D",
+            "M.Phil"});
+            this.textBox5.Location = new System.Drawing.Point(356, 227);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(293, 33);
+            this.textBox5.TabIndex = 27;
+            this.textBox5.SelectedIndexChanged += new System.EventHandler(this.textBox5_SelectedIndexChanged);
+            // 
+            // textBox6
+            // 
+            this.textBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.FormattingEnabled = true;
+            this.textBox6.Items.AddRange(new object[] {
+            "Employed",
+            "Unemployed"});
+            this.textBox6.Location = new System.Drawing.Point(356, 265);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(293, 33);
+            this.textBox6.TabIndex = 28;
             // 
             // EmployerSignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(714, 592);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.BackButton);
             this.Controls.Add(this.SignUpButton);
             this.Controls.Add(this.textBox11);
@@ -312,8 +328,6 @@ namespace IPT_Project_Desktop
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -355,8 +369,6 @@ namespace IPT_Project_Desktop
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
@@ -364,5 +376,7 @@ namespace IPT_Project_Desktop
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Button SignUpButton;
         private System.Windows.Forms.Button BackButton;
+        private System.Windows.Forms.ComboBox textBox5;
+        private System.Windows.Forms.ComboBox textBox6;
     }
 }

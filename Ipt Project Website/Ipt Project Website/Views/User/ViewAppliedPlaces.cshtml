@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Ipt_Project_Website.Models.Job_post>
+
+@{
+    ViewBag.Title = "ViewAppliedPlaces";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>The places you have applied</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Job Designation
+        </th>
+        <th>
+            Job Description
+        </th>
+    </tr>
+
+    @foreach (var item in ViewBag.Posts) {
+    <tr>
+        <td>
+            @item.Job_designation
+        </td>
+        <td>
+            @item.Job_description
+        </td>
+    </tr>
+    }
+
+</table>

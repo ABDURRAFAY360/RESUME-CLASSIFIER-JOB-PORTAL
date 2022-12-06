@@ -38,13 +38,14 @@
                 @*If the login is by user*@
                 else if (Session["login"].ToString() == "1" && Session["User"].ToString() != "0")
                 {
-
-                    <ul class="nav navbar-nav">
-                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                        <li>@Html.ActionLink("About", "About", "Home")</li>
-                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                        <li>@Html.ActionLink("Upload Resume", "ResumeUpload", "Resume")</li>
-                    </ul>
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                <li>@Html.ActionLink("Upload Resume", "ResumeUpload", "Resume")</li>
+                <li>@Html.ActionLink("View Applied Places", "ViewAppliedPlaces", "User")</li>
+                <li>@Html.ActionLink("Apply for Job", "JobApply", "User")</li>
+            </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="@Url.Action("UserLogout","User")"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
                     </ul>
@@ -54,12 +55,15 @@
                 else if (Session["login"].ToString() == "1" && Session["Employer"].ToString() != "0")
                 {
 
-                    <ul class="nav navbar-nav">
-                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                        <li>@Html.ActionLink("About", "About", "Home")</li>
-                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                        <li>@Html.ActionLink("Add New Jobs", "CreateJob", "Employer")</li>
-                    </ul>
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                <li>@Html.ActionLink("View Resumes", "ViewResumes", "Employer")</li>
+                <li>@Html.ActionLink("Add New Jobs", "CreateJob", "Employer")</li>
+                <li>@Html.ActionLink("View Job Applicants", "job_applicant", "Employer")</li>
+                <li>@Html.ActionLink("Resume Suggester", "ResumeSuggestion", "Employer")</li>
+            </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="@Url.Action("EmployerLogout","Employer")"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
                     </ul>

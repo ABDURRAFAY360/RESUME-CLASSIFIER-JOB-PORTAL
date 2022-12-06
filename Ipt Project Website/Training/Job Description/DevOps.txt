@@ -1,0 +1,25 @@
+Job Description
+edit
+People ™ is an international HR Service provider for HR Management, Outsourcing Solutions and Executive Search. In the past two decades, we have successfully recruited and outplaced more than 200,000 candidates for leading National and International organizations.
+We invite you to apply for exciting opportunity DEVOPS ENGINEER
+Responsibilities:
+Experience in managing Linux-based infrastructure.
+Strong ability to deal with multiple urgent situations at a time.
+Deployments on Linux and Windows servers.
+Deployment of PHP, Node, Angular and other related technologies independently.
+System troubleshooting and problem-solving across multiple platforms (dev/test/prod).
+Application server configuration and trouble shooting.
+Ability to handle Configuration Management, Continuous Integration, and Continuous Delivery (CI/CD) processes.
+Evaluate new technology options and vendors’ products.
+Identify and document the best IT practices that will improve the system deployment function.
+Identify automation opportunities to improve DevOps operations.
+
+Skills:
+Code Understanding of PHP, Angular, Node and related technologies.
+Application Server
+Knowledge of Linux/Window.
+Knowledge of SVN/GIT and Docker.
+Degree Title:
+Bachelor in Computer Science.
+Location:
+The position is based at Lahore.

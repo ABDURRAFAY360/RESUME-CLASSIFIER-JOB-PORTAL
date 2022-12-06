@@ -58,14 +58,17 @@ namespace Ipt_Project_Website.Controllers
             var resume_text = text.ToString();
             var user = new Dictionary<string, string>
             {
-                { "thing1", resume_text},
-                { "thing2", "world" }
+                { "resume", resume_text}
             };
             var json = JsonConvert.SerializeObject(user);
             var data = new StringContent(json, Encoding.UTF8, "application/json");
             var client = new HttpClient();
             var response = await client.PostAsync("https://rafay.ap.ngrok.io", data);
             string result = await response.Content.ReadAsStringAsync();
+            
+            Dictionary<string, string> htmlAttributes =
+            JsonConvert.DeserializeObject<Dictionary<string, string>>(result);
+        
 
             string temp = Session["User_ID"].ToString();
             Resume _resume = new Resume();
@@ -73,7 +76,7 @@ namespace Ipt_Project_Website.Controllers
             _resume.filepath = UploadPath;
             _resume.Raw_text = resume_text;
             _resume.Formated_text = "ree";
-            _resume.Predicted_labels = result;
+            _resume.Predicted_labels = htmlAttributes["1"];
             dbmodel.Resumes.Add(_resume);
             dbmodel.SaveChanges();
            
