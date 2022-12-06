@@ -1,0 +1,13 @@
+Step 1
+-Pip install -r requirements.txt this will going to install all the required packages for the python project.
+-This project is responsible for the for all the resume classification and resume suggestion
+
+Step 2
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('omw-1.4')
+add the above lines at start of app.py when you run app.py for first time.
+
+Step 3
+Run the command Flask run
